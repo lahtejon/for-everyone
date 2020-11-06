@@ -1,0 +1,269 @@
+* {
+    margin: 0%;
+}
+
+body {
+    font-family:montserrat;
+    margin: 0;
+    padding: 0; 
+         
+          background: url(fundo1.jpg) no-repeat fixed center top;
+          background-repeat: no-repeat;
+          background-size:cover;
+          background-position: center;
+}
+.logo {
+
+    height: 85px;
+    margin: -40px 0px 0px 0px;
+}
+
+.header {
+background-image:url(logo.png);
+background-repeat: no-repeat;
+background-size:100px;
+background-position-y: center;
+
+background:linear-gradient(to left, #ffe600ee,#f7003e, #f7003e,#e203ff,#2904fcee);
+height: 35px;
+padding-top: 30px;}
+.header .nav .current a, .header span {
+    background:linear-gradient( #ff8f8f , #ff1852, );
+    color:black;}
+
+.nav ul
+{
+    margin: -6px 14px -8px 0px;
+}
+
+.title-header{
+    float: left;
+    color: white;
+}
+
+.nav{
+   float: right;
+   font-size: 20px;
+}
+
+.nav a{
+text-decoration:none;
+color: #000000;
+text-transform: uppercase;
+margin: 0 auto 0 auto;
+font-family: Montserrat;
+}
+
+.nav li{
+     display: inline-block;
+     padding: 0px 10px 0 20px;
+     margin: 0;
+     justify-content: center;
+} 
+
+
+.new input{
+    width: 225px;
+    height: 25px;
+}
+
+.btn {
+    background-color: rgb(233, 13, 13);
+    color: black;
+    border: none;
+    width: 60px;
+    height: 30px;
+}
+ .box1{
+font-family:montserrat;
+
+ }
+.retangular{
+margin:-132px 0px 0px -48px;
+height:100px ;
+}
+.maça{
+margin:-129px 0px 0px 0px  ;
+
+height:100px ;
+}
+.pera{
+margin:-129px 0px 0px 0px  ;
+
+height:100px ;
+}
+.trianguloI{
+margin:-129px 0px 0px 0px  ;
+height:100px ;
+}
+
+
+.texto1{
+background:linear-gradient( to left, #ffe600ee, #f7003e); 
+height:25px;
+width: 1200px;
+font-size: 20px;
+}
+.box2 select{
+    background:linear-gradient( to left, #ffe600ee, #f7003e); 
+    color: black;
+    padding: 10px;
+    width: 260px;
+    height: 50px;
+    border:none;
+    font-size: 20px;
+    font-family: montserrat;
+    -webkit-appearance: button;
+}
+.box4 select{
+    background:linear-gradient( to left, #ffe600ee, #f7003e); 
+    color: black;
+    padding: 10px;
+    width: 260px;
+    height: 50px;
+    border:none;
+    font-size: 20px;
+    font-family: montserrat;
+    -webkit-appearance: button;
+}
+
+
+.caixa1 {
+    background:linear-gradient( #ffe600ee, #f7003e, #f7003e,#e203ff,#2904fcee); 
+    width: 500px;
+    height: 400px;
+    font-family: montserrat;
+}
+
+.caixa1 input{
+    width: 260px;
+    height: 40px;
+    border:none;
+    font-family: montserrat;
+}
+
+.caixa1 button {
+    background:linear-gradient( to left, #ffe600ee, #f7003e); 
+    color: black;
+    padding: 10px;
+    width: 100px;
+    height: 50px;
+    border:none;
+    font-size: 20px;
+    font-family: montserrat;
+    -webkit-appearance: button;
+}
+.texto2{
+background:linear-gradient( to left, #ffe600ee, #f7003e); 
+height:25px;
+width: 1000px;
+font-size: 20px;
+}
+
+.baby{
+margin: 0px -20px -28px 0px;
+}
+
+.juntas{
+margin: -385p
+}
+.dois{
+height: px;
+margin:-212px 0px 0px 181px;
+;
+}
+.um {
+    margin:-192px 0px 0px 62px;; 
+}
+.tres{
+margin: 0px 0px 0px 188px;   
+}
+.quatro{
+    margin:-523px 0px 141px 556px; 
+height:400px ;
+}
+
+.famosas{
+margin:-457px -13px -125px 0px;
+
+}
+.gisele{
+margin:0px 0px 0px 0px  ;
+height:600px;
+}
+
+.jennifer{
+margin:0px 0px 0px 0px  ;
+height:600px;
+}
+
+.nicole{
+margin:0px 0px 0px 0px  ;
+height:600px;
+}
+
+.cinco{
+margin:  -450px 0px 55px 255px;;
+}
+.seis{
+margin:-61px 0px -64px 248px;
+}
+.sete{
+margin:-600px 0px 141px 680px;
+}
+
+.famosas2{
+margin:-165px 0px 0px 32px;  
+}
+
+.kin{
+margin: 0px 0px 0px 0px ;
+height: 600px;  
+}
+
+.kylie{
+margin: 0px 0px 0px 0px ;
+height: 550px;    
+}
+
+.cloe{
+margin:0px 0px 0px 0px ;
+height: 600px;   
+} 
+.oito{
+margin:-382px 0px 21px 263px;
+}
+.nove{
+margin:-40px 0px 0px 263px;
+}
+.dez{
+margin:-548px 0px 203px 639px;
+}
+
+.famosas3{
+margin:-221px 0px 0px 78px;
+
+}
+.amanda{
+margin: 0px 0px 0px 0px;
+height: 600px;
+}
+.kat{
+margin: 0px 0px 0px 0px;
+height: 600px;
+}
+.angelina{
+margin: 0px 0px 0px 0px;
+height: 600px;
+}
+
+
+
+
+
+
+
+
+
+
+
