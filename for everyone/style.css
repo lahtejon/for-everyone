@@ -6,11 +6,11 @@ body {
     font-family:montserrat;
     margin: 0;
     padding: 0; 
-         
-          background: url(fundo1.jpg) no-repeat fixed center top;
-          background-repeat: no-repeat;
-          background-size:cover;
-          background-position: center;
+
+        background: url(fundo1.jpg) no-repeat fixed center top;
+        background-repeat: no-repeat;
+        background-size:cover;
+        background-position: center;
 }
 .logo {
 
@@ -74,10 +74,10 @@ font-family: Montserrat;
     width: 60px;
     height: 30px;
 }
- .box1{
+.box1{
 font-family:montserrat;
 
- }
+}
 .retangular{
 margin:-132px 0px 0px -48px;
 height:100px ;
@@ -88,9 +88,9 @@ margin:-129px 0px 0px 0px  ;
 height:100px ;
 }
 .pera{
-margin:-129px 0px 0px 0px  ;
+margin: -129px 0px 0px -50px; 
 
-height:100px ;
+height:100px;
 }
 .trianguloI{
 margin:-129px 0px 0px 0px  ;
@@ -179,8 +179,8 @@ margin:-212px 0px 0px 181px;
 margin: 0px 0px 0px 188px;   
 }
 .quatro{
-    margin:-523px 0px 141px 556px; 
-height:400px ;
+    margin:-523px 0px 141px 500px; 
+
 }
 
 .famosas{
@@ -188,7 +188,7 @@ margin:-457px -13px -125px 0px;
 
 }
 .gisele{
-margin:0px 0px 0px 0px  ;
+margin:0px 0px 0px -171px  ;
 height:600px;
 }
 
@@ -202,6 +202,12 @@ margin:0px 0px 0px 0px  ;
 height:600px;
 }
 
+.CX1{
+margin: 0px 0px 0px 0px;
+
+}
+
+
 .cinco{
 margin:  -450px 0px 55px 255px;;
 }
@@ -209,7 +215,8 @@ margin:  -450px 0px 55px 255px;;
 margin:-61px 0px -64px 248px;
 }
 .sete{
-margin:-600px 0px 141px 680px;
+margin:-600px 0px 141px 600px;
+;
 }
 
 .famosas2{
@@ -229,7 +236,11 @@ height: 550px;
 .cloe{
 margin:0px 0px 0px 0px ;
 height: 600px;   
-} 
+}
+.CX2{
+margin: -150px 0px -115px 0px;  
+}
+
 .oito{
 margin:-382px 0px 21px 263px;
 }
@@ -248,7 +259,7 @@ margin:-221px 0px 0px 78px;
 margin: 0px 0px 0px 0px;
 height: 600px;
 }
-.kat{
+.kate{
 margin: 0px 0px 0px 0px;
 height: 600px;
 }
@@ -256,12 +267,39 @@ height: 600px;
 margin: 0px 0px 0px 0px;
 height: 600px;
 }
+.CX3{
+margin: -92px 0px 0px 0px;    
+}
 
+.famosas4{
+ margin: -150px 0px 0px 0px ;
+}
 
+.onze{
+margin: -377px 0px 23px 241px;
+}
+.doze{
+margin: -35px 0px 0px 241px; 
+}  
 
-
-
-
+.treze{
+margin:-467px 0px 123px 691px;
+}
+.lopez{
+    margin:0px 0px 0px 0px;
+    height:600px ;
+}  
+ .iza{
+    margin:0px 0px 0px 0px;
+    height:600px ;
+ }
+.niky{
+    margin:0px 0px 0px 0px;
+    height:600px ;   
+}
+.CX4{
+    margin:-180px 0px 0px 0px;  
+}
 
 
 
