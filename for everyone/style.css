@@ -55,10 +55,10 @@ font-family: Montserrat;
 }
 
 .nav li{
-     display: inline-block;
-     padding: 0px 10px 0 20px;
-     margin: 0;
-     justify-content: center;
+    display: inline-block;
+    padding: 0px 10px 0 20px;
+    margin: 0;
+    justify-content: center;
 } 
 
 
@@ -156,9 +156,9 @@ font-size: 20px;
 .caixa2{
     background:linear-gradient( #ffe600ee, #f7003e, #f7003e,#e203ff,#2904fcee); 
     width:  600px;
-    height: 570px;
+    height: 500px;
     font-family: montserrat;
-    margin: 30px 0px 0px 0px ;
+    margin: 13px 0px 0px 0px ;
 }
 .caixa2 input{
     width: 260px;
@@ -166,7 +166,20 @@ font-size: 20px;
     border:none;
     font-family: montserrat;
 }
-.caixa2 button {
+
+.confirmar  {
+    background:linear-gradient( to left, #ffe600ee, #f7003e); 
+    color: black;
+    padding: 10px;
+    width: 210px;
+    height: 50px;
+    border:none;
+    font-size: 20px;
+    font-family: montserrat;
+    -webkit-appearance: button;
+    margin: 0px 0px 0px 10px ;
+}
+.limpar  {
     background:linear-gradient( to left, #ffe600ee, #f7003e); 
     color: black;
     padding: 10px;
@@ -176,6 +189,35 @@ font-size: 20px;
     font-size: 20px;
     font-family: montserrat;
     -webkit-appearance: button;
+    margin: 0px 0px 68px 250px;
+}
+.cadastro{
+    margin: 0px 0px 0px 0px;
+}
+.email{
+    margin: 0px 0px 0px -300px;
+}
+.cpf{
+    margin: -20px 0px 0px -300px;
+}
+.data{
+    margin:-160px 0px 0px 289px;
+    z-index: 1;
+    position: absolute;
+}
+.senha{
+    margin:-49px 0px 0px -299px; 
+}
+
+.confirmação{
+    margin:-10px 0px 0px -299px; 
+}
+.imagem{
+    margin:-290px 0px 0px 123px;
+    z-index: 0;
+}
+.botao{
+    margin: -70px 0px 0px 0px;
 }
 
 .texto2{
@@ -314,7 +356,7 @@ margin:-467px 0px 123px 691px;
 }  
 .iza{
     margin:0px 0px 0px 0px;
-    height:600px ;
+    height:550px ;
 }
 .niky{
     margin:0px 0px 0px 0px;
@@ -352,3 +394,4 @@ margin:-600px 0px 150px 600px;
 .CX5{
     margin:-180px 0px 0px 0px;
 }
+

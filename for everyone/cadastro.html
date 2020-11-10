@@ -6,32 +6,65 @@
     <title>Cadastro</title>
     <link rel="stylesheet" href="style.css">
 </head>
-<body>
+<body><body>
+    <div class="header">
+        <div class="container">
+            <img src="logo.png" class="logo">
+
+            <div class="nav">
+                <ul class="menu">
+                    <li></li> <a href="inicio.html" ><strong>Inicio</strong></a></li>
+                    <li> <a href="Sobre.html"><strong>sobre</strong></a></li>
+                    <li> <a href="Roupas.html"><strong>Roupas</strong></a></li>
+                    <li> <a href="Maquiagem.html"><strong>Maquiagem</strong></a></li>
+                    <li> <a href="login.html" ><strong>login</strong></a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
     <center>
     <div class="caixa2">
-        <center>
+       
 <br>
-    <h1>Cadastro</h1>
+    <h1 class="cadastro">Cadastro</h1>
 <br>
-<h3>E-mail</h3>
-<input id="email" placeholder="Insira seu e-mail " type="text">
-<br><br>
-<h3>CPF</h3>
 
-<input id="cpf" placeholder="Insira seu e cpf" type="text">
+<div class="email">
+<h3>E-mail</h3>
+<input id="email" placeholder="Insira seu e-mail " type="text" >
+</div>
+
 <br><br>
+
+<div class="cpf">
+<h3>CPF</h3>
+<input id="cpf" placeholder="Insira seu e cpf" type="text" >
+</div>
+
+<br><br>
+<div class="data">
 <h3>Data de nascimento</h3>
-<input id="data"placeholder="" type="date">
+<input type="date" id="data">
+
+</div>
+
 <br><br>
+<div class="senha">
 <h3>Crie uma senha</h3>
-<input id="senha" placeholder="Insira sua senha" type="password">
-<br><br> 
-<h3>Confirme a senha</h3>
-<input id="confirmação" placeholder="confirme sua senha" type="password"> 
+<input id="senha" placeholder="Insira sua senha" type="password" >
+</div>
+
 <br><br>
-<button onclick="confirmar()">Confirmar</button>
-<button onclick="limpar()">Limpar</button>
-        </center>
+<div class = "confirmação">
+<h3>Confirme a senha</h3>
+<input id="confirmação" placeholder="confirme sua senha" type="password" > 
+</div>
+<img src="cadastro.png" class="imagem">
+
+<div class=" botao">
+<button onclick="confirmar()" class="confirmar">Confirmar</button>
+<button onclick="limpar()" class="limpar">Limpar </button>
+</div>       
     </center>
 </div>
 </body>
@@ -47,15 +80,23 @@ confirmação.value="";
 </script>
 <script>
 function confirmar(){
-var email = email.value
-var cpf = cpf.value
-var data = data.value
-var senha = senha.value
-var confirmação = confirmação.value
-if(email =="" || cpf == "" || data == "" || senha == ""||confirmação == ""){
+var email1 = email.value;
+var cpf1 = cpf.value;
+var data1 = data.value;
+var senha1 = senha.value;
+var confirmação1 = confirmação.value;
+if(email1 =="" || cpf1 == "" || data1 == "" || senha1 == ""||confirmação1 == ""){
 alert("insira todos os dados");
 }
+else if (senha1 == confirmação1){
+alert("senha igual")   
+}
+else {
+alert("Senhas diferentes, tente novamente!") 
+}
+
 }
 </script>
+
 
 
