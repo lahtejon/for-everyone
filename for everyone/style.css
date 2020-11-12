@@ -14,8 +14,8 @@ body {
 }
 .logo {
 
-    height: 85px;
-    margin: -40px 0px 0px 0px;
+    height: 64px;
+    margin: -37px 0px 0px 0px;
 }
 
 .header {
@@ -25,7 +25,7 @@ background-size:100px;
 background-position-y: center;
 
 background:linear-gradient(to left, #ffe600ee,#f7003e, #f7003e,#e203ff,#2904fcee);
-height: 35px;
+height: 18px;
 padding-top: 30px;}
 .header .nav .current a, .header span {
     background:linear-gradient( #ff8f8f , #ff1852, );
@@ -33,7 +33,7 @@ padding-top: 30px;}
 
 .nav ul
 {
-    margin: -6px 14px -8px 0px;
+    margin: -15px 14px -8px 0px;
 }
 
 .title-header{
@@ -74,9 +74,16 @@ font-family: Montserrat;
     width: 60px;
     height: 30px;
 }
+
+.rodape{
+    position:absolute;
+    bottom:0;
+    width:100%;
+    height: 24px;
+    background:linear-gradient(to left, #ffe600ee,#f7003e, #f7003e,#e203ff,#2904fcee);
+}
 .box1{
 font-family:montserrat;
-
 }
 .retangular{
 margin:-132px 0px 0px -48px;
@@ -97,12 +104,12 @@ margin:-129px 0px 0px 0px  ;
 height:100px ;
 }
 
-
 .texto1{
 background:linear-gradient( to left, #ffe600ee, #f7003e); 
 height:25px;
 width: 1200px;
 font-size: 20px;
+
 }
 .box2 select{
     background:linear-gradient( to left, #ffe600ee, #f7003e); 
@@ -125,6 +132,7 @@ font-size: 20px;
     font-size: 20px;
     font-family: montserrat;
     -webkit-appearance: button;
+    margin: -10px 0px 0px 0px ;
 }
 
 
@@ -153,6 +161,11 @@ font-size: 20px;
     font-family: montserrat;
     -webkit-appearance: button;
 }
+.dialogo2{
+margin:-600px 0px 250px 980px ;
+    }
+
+
 .caixa2{
     background:linear-gradient( #ffe600ee, #f7003e, #f7003e,#e203ff,#2904fcee); 
     width:  600px;
@@ -231,9 +244,6 @@ font-size: 20px;
 margin: 0px -20px -28px 0px;
 }
 
-.juntas{
-margin: -385p
-}
 .dois{
 height: px;
 margin:-212px 0px 0px 181px;
@@ -269,9 +279,6 @@ margin:0px 0px 0px 0px  ;
 height:600px;
 }
 
-.CX1{
-margin: 0px 0px 0px 0px;
-}
 
 .cinco{
 margin:  -450px 0px 55px 255px;;
@@ -307,7 +314,7 @@ margin: -150px 0px -115px 0px;
 }
 
 .oito{
-margin:-382px 0px 21px 263px;
+margin:-382px 0px 9px 263px;
 }
 .nove{
 margin:-40px 0px 0px 263px;
@@ -348,7 +355,7 @@ margin: -35px 0px 0px 241px;
 }  
 
 .treze{
-margin:-467px 0px 123px 691px;
+margin:-467px 0px 123px 680px;
 }
 .lopez{
     margin:0px 0px 0px 0px;
