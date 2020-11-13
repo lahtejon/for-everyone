@@ -75,13 +75,6 @@ font-family: Montserrat;
     height: 30px;
 }
 
-.rodape{
-    position:absolute;
-    bottom:0;
-    width:100%;
-    height: 24px;
-    background:linear-gradient(to left, #ffe600ee,#f7003e, #f7003e,#e203ff,#2904fcee);
-}
 .box1{
 font-family:montserrat;
 }
@@ -141,6 +134,7 @@ font-size: 20px;
     width: 500px;
     height: 400px;
     font-family: montserrat;
+    margin: -500px 0px 0px 0px;
 }
 
 .caixa1 input{
@@ -162,8 +156,13 @@ font-size: 20px;
     -webkit-appearance: button;
 }
 .dialogo2{
-margin:-600px 0px 250px 980px ;
+margin:-280px 0px 0px 990px;
     }
+
+.dialogo1{
+margin: -1px 0px 0px -950px;
+    
+}    
 
 
 .caixa2{
@@ -250,7 +249,7 @@ margin:-212px 0px 0px 181px;
 ;
 }
 .um {
-    margin:-192px 0px 0px 62px;; 
+    margin:-180px 0px 0px 62px;; 
 }
 .tres{
 margin: 0px 0px 0px 188px;   
@@ -281,7 +280,7 @@ height:600px;
 
 
 .cinco{
-margin:  -450px 0px 55px 255px;;
+margin:  -470px 0px 40px 255px;;
 }
 .seis{
 margin:-61px 0px -64px 248px;
@@ -402,3 +401,84 @@ margin:-600px 0px 150px 600px;
     margin:-180px 0px 0px 0px;
 }
 
+.oval1{
+    margin: 0px 0px 0px -294px;
+}
+
+.oval2{
+    margin:-161px 0px 0px 674px;
+}
+
+.ovalcontorno{
+    margin: -500px 0px 300px 100px;
+}
+.CToval{
+    margin: -100px 0px 150px -700px;
+}
+
+.famosasoval{
+margin: -100px 0px 400px 200px;
+}
+.jenner{
+    margin: -470px 0px 170px 1100px ;
+    height: 250px;
+}
+.dakota{
+    margin: -470px 0px 190px 900px;
+    height: 250px;
+}
+
+.redondo1{
+margin: 0px 0px 0px 0px;  
+}
+.redondo2{
+    margin: -111px 0px 100px 680px;  
+}
+.contornoredondo{
+    margin: -400px 0px 560px 100px;  
+}
+.CTredondo{
+    margin: -190px 0px 158px -400px; 
+}
+.famosasredondo{
+     margin: -467px 0px 415px 800px; 
+}.selena{
+    margin: -450px 0px 350px 700px;
+}
+.redondo{
+    margin: 0px 0px 70px 0px;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.lais{
+    margin: 0px 0px 0px 10px;
+}
+.h1{
+    margin: -270px 0px 0px 130px;
+}
+.sobre{
+    margin: 30px 0px 0px 167px;
