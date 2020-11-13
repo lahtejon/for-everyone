@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>vamos descobrir qual o tipo do seu corpo ?</h1>
+    <br><br>
+    <h2>infrome a medida dos seus ombros</h2>
+    <input id="ombros" placeholder="ombros" type="text">
+    <br>
+    <h2>infrome a medida da sua cintura</h2>
+    <input id="cintura" placeholder="cintura" type="text">
+    <br>
+    <h2>infrome a medida do seu quadril</h2>
+    <input id="quadril" placeholder="quadril" type="text">
+    <br><br>
+    <button onclick="calcular()">Calcular</button>
+    <button onclick="limpar()">Limpar</button>
+    <div id="div_mes"></div>
+    
+</body>
+</html>
+<script>
+
+function limpar(){
+ombros.value ="";
+cintura.value ="";
+quadril.value ="";
+}
+function calcular(){
+var ombros1 = ombros.value;
+var cintura1 = cintura.value;
+var quadril1 = quadril.value;  
+div_mes.innerHTML= "";
+
+if (quadril1-cintura1<=5  && quadril1-ombros1<=5 && ombros1-cintura1<=5){
+div_mes.innerHTML= `seu corpo é retangular`;
+}
+else if(ombros1-quadril1<=5 && ombros1-cintura1 >=20 && quadril1-cintura1>=20 ){
+div_mes.innerHTML= `seu corpo é ampulheta`;
+}
+    else if (ombros1-cintura1>5 && quadril-cintura1<=5 && ombros1>quadril1){
+div_mes.innerHTML= `seu corpo é Trinagulo invertido`;}
+
+else if (quadril1-ombros>5 && quadril1-cintura>=8){
+    div_mes.innerHTML= `seu corpo é Pera`;
+}
+else if (cintura1>quadril){
+    div_mes.innerHTML= `seu corpo é maça`;
+}
+}
+</script>

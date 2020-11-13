@@ -135,6 +135,7 @@ font-size: 20px;
     height: 400px;
     font-family: montserrat;
     margin: -500px 0px 0px 0px;
+    border-radius:20px;
 }
 
 .caixa1 input{
@@ -142,6 +143,7 @@ font-size: 20px;
     height: 40px;
     border:none;
     font-family: montserrat;
+    border-radius: 20px;
 }
 
 .caixa1 button {
@@ -154,6 +156,7 @@ font-size: 20px;
     font-size: 20px;
     font-family: montserrat;
     -webkit-appearance: button;
+    border-radius: 50px;
 }
 .dialogo2{
 margin:-280px 0px 0px 990px;
@@ -171,12 +174,14 @@ margin: -1px 0px 0px -950px;
     height: 500px;
     font-family: montserrat;
     margin: 13px 0px 0px 0px ;
+    border-radius: 20px;
 }
 .caixa2 input{
     width: 260px;
     height: 40px;
     border:none;
     font-family: montserrat;
+    border-radius: 10px;
 }
 
 .confirmar  {
@@ -190,6 +195,7 @@ margin: -1px 0px 0px -950px;
     font-family: montserrat;
     -webkit-appearance: button;
     margin: 0px 0px 0px 10px ;
+    border-radius: 20px;
 }
 .limpar  {
     background:linear-gradient( to left, #ffe600ee, #f7003e); 
@@ -202,7 +208,9 @@ margin: -1px 0px 0px -950px;
     font-family: montserrat;
     -webkit-appearance: button;
     margin: 0px 0px 68px 250px;
+    border-radius: 20px;
 }
+
 .cadastro{
     margin: 0px 0px 0px 0px;
 }
@@ -478,7 +486,18 @@ margin: 0px 0px 0px 0px;
     margin: 0px 0px 0px 10px;
 }
 .h1{
-    margin: -270px 0px 0px 130px;
+    margin: -270px 0px 0px 200px;
+    font-size: 30px;
 }
 .sobre{
-    margin: 30px 0px 0px 167px;
+    background:linear-gradient( #ffe600ee, #f7003e, #f7003e);
+    width: 1100px; 
+    margin:16px 0px 0px 240px;
+    font-size: 20px;
+    border-radius: 15px;
+}
+.BP{
+    margin: 0px 0px 0px 240px;
+    color: white;
+}
+.
