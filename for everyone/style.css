@@ -535,12 +535,68 @@ margin: -202px 0px 508px -426px;
     -webkit-appearance: button;
     border-radius: 50px;
 }
+
+.calculadora1{
+    margin: -50px 0px 0px 0px;
+}
+.imput{
+    margin: -36px 0px 20px 0px ;
+}
+
 .div2{
+    background:linear-gradient(#ffe600ee, #f7003e, #f7003e,#e203ff,#2904fcee); 
+    height: 577px;
+    width: 650px;
     float: right;
+    margin: 0px 0px 0px 120px;
 }
-.blog{
-    margin: 0px 0px 0px 0px ;
+
+.separação{
+    width: 100%; 
+	display: flex; 
+	flex-direction: row 
 }
+.saber{
+margin: -20px 0px 0px 0px;
+}
+.seta1{
+    margin: 0px 0px 48px 0px;
+}
+.saber1{
+    margin: 0px 0px 0px 0px;
+}
+.div3 button{
+    background:linear-gradient( #f7003e, #ffe600ee);
+    color: black;
+    padding: 10px;
+    width: 150px;
+    height: 50px;
+    border:none;
+    font-size: 20px;
+    font-family: montserrat;
+    -webkit-appearance: button;
+    border-radius: 50px;
+    margin: -39px 0px 43px -109px;
+}
+.seta2{
+    margin: 0px 0px 68px 0px;
+}
+.div4 button{
+    background:linear-gradient( #f7003e, #ffe600ee);
+    color: black;
+    padding: 10px;
+    width: 150px;
+    height: 50px;
+    border:none;
+    font-size: 20px;
+    font-family: montserrat;
+    -webkit-appearance: button;
+    border-radius: 50px;
+    margin: -29px 0px 11px -105px;
+}
+
+
+
 
 .lais{
     margin: 0px 0px 0px 10px;
