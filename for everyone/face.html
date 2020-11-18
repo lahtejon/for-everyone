@@ -16,6 +16,7 @@
                     <li> <a href="Sobre.html"><strong>sobre</strong></a></li>
                     <li> <a href="body.html"><strong>body</strong></a></li>
                     <li class="current"><a href="face.html"><strong>face</strong></a></li>
+                    <li><a href="laboratiorio.html"><strong>Laboratory</strong></a></li>
                     <li> <a href="login.html" ><strong>Login</strong></a></li>
                 </ul>
             </div>
@@ -23,7 +24,7 @@
     </div> 
     <center>
     <div id="box3" style="display: block;" >
-        <br><br>
+    <br><br>
 <h2  class="texto2">Saiba como usar os traços do seu rosto a seu favor para garantir uma maquiagem bela e proporcional.</h2>
 <img src="rostos.png">
     </div>
@@ -37,8 +38,6 @@
     <option value="Quadrado">Quadrado</option>
     <option  value="Coração">Coração</option>
     <option value="Oval">Oval</option>
-    <option value="Diamante">Diamante</option>
-    <option value="Oblongo">Oblongo</option>
 </select>
             </center>
 <div id="div_redondo" style="display: none;">
@@ -54,15 +53,30 @@
 </div>
 </div>
 
-
-
-
-
 <div id="div_quadrado" style="display: none;">
-    <img src="quadrado.png"style="height: 300px;">
+<img src="quadrado.png"style="height: 300px;" class="quadrado">
+<img src="quadrado1.png" class="quadrado1">      
+<img src="quadrado2.png" class="quadrado2">      
+<img src="contornoquadrado.png" class="contornoquadrado">      
+<img src="CTquadrado.png" class="CTquadrado">      
+<img src="famosasquadrado.png" class="famosasquadrado">
+<div class="annejoli">    
+<img src="anne.png" class="anne" height="250px"> 
+<img src="joli.png" class="joli" height="250px"> 
+</div> 
 </div>
+
 <div id="div_coração" style="display: none;">
-    <img src="coração.png"style="height: 300px;">
+    <img src="coração.png" style="height: 250px;" class="coração">
+    <img src="coração1.png" class="coração1">
+    <img src="coração2.png" class="coração2">
+    <img src="contronocoração.png" class="contornocoração">
+    <img src="CTcoração.png" class="CTcoração">
+    <img src="famosacoração.png" class="famosascoração">
+    <div class="secoflavia">
+    <img src="seco.png" class="seco" height="230px">
+    <img src="flavia.png" class="flavia"height="230px">
+</div>
 </div>
 
 
@@ -76,24 +90,9 @@
     <img src="jenner.png" class="jenner">
     <img src="dakota.png" class="dakota">
 </div> 
-
-
-
-
-<div id="div_diamante" style="display: none;">
-    <img src="diamante.png"style="height: 300px;">
-</div>
-<div id="div_oblongo" style="display: none;">
-    <img src="oblongo.png"style="height: 300px;">
-</div>
-<div class="rodape">
-    <center>
-        
-   <h>for.everyone@hotmail.com</h>
-    </center>
-</div>
 </body>
 </html>
+
 <script>
 function Rosto(){
     if(tiposRosto.value == "qual2"){
@@ -102,8 +101,7 @@ function Rosto(){
     div_quadrado.style = "display:none;"
     div_coração.style = "display:none;"
     div_oval.style="display:none;"
-    div_diamante.style = "display:none;"
-    div_oblongo.style = "display:none;"
+    
 }
 else if (tiposRosto.value == "Redondo"){
     box3.style = 'display: none;'
@@ -111,8 +109,7 @@ else if (tiposRosto.value == "Redondo"){
     div_quadrado.style = "display:none;"
     div_coração.style ='display:none;'
     div_oval.style='display:none;'
-    div_diamante.style = "display:none;"
-    div_oblongo.style = "display:none;"
+    
 }
 else if (tiposRosto.value =="Quadrado"){
     box3.style = "display: none;"
@@ -120,8 +117,7 @@ else if (tiposRosto.value =="Quadrado"){
     div_quadrado.style = "display:block;"
     div_coração.style ='display:none;'
     div_oval.style='display:none;'
-    div_diamante.style = "display:none;"
-    div_oblongo.style = "display:none;"
+    
 }
 
 else if (tiposRosto.value =="Coração"){
@@ -130,8 +126,7 @@ else if (tiposRosto.value =="Coração"){
     div_quadrado.style = "display:none;"
     div_coração.style ='display:block;'
     div_oval.style='display:none;'
-    div_diamante.style= "display:none;"
-    div_oblongo.style = "display:none;"
+  
 }
 
 else if (tiposRosto.value =="Oval"){
@@ -140,28 +135,9 @@ else if (tiposRosto.value =="Oval"){
     div_quadrado.style = "display:none;"
     div_coração.style='display:none;'
     div_oval.style='display:block;'
-    div_diamante.style= "display:none;"
-    div_oblongo.style= "display:none;"
+   
 }
 
-else if (tiposRosto.value =="Diamante"){
-    box3.style = "display: none;"
-    div_redondo.style = 'display:none;'
-    div_quadrado.style = "display:none;"
-    div_coração.style ='display:none;'
-    div_oval.style='display:none;'
-    div_diamante.style = "display:block;"
-    div_oblongo.style = "display:none;"
-}
-else if (tiposRosto.value =="Oblongo"){
-    box3.style = "display: none;"
-    div_redondo.style = 'display:none;'
-    div_quadrado.style = "display:none;"
-    div_coração.style ='display:none;'
-    div_oval.style='display:none;'
-    div_diamante.style = "display:none;"
-    div_oblongo.style = "display:block;"
-}
 
 }
 

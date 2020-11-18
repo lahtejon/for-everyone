@@ -102,6 +102,7 @@ background:linear-gradient( to left, #ffe600ee, #f7003e);
 height:25px;
 width: 1200px;
 font-size: 20px;
+border-radius: 20px;
 
 }
 .box2 select{
@@ -114,6 +115,7 @@ font-size: 20px;
     font-size: 20px;
     font-family: montserrat;
     -webkit-appearance: button;
+    border-radius: 20px;
 }
 .box4 select{
     background:linear-gradient( to left, #ffe600ee, #f7003e); 
@@ -126,6 +128,7 @@ font-size: 20px;
     font-family: montserrat;
     -webkit-appearance: button;
     margin: -10px 0px 0px 0px ;
+    border-radius: 20px;
 }
 
 
@@ -184,18 +187,19 @@ margin: -1px 0px 0px -950px;
     border-radius: 10px;
 }
 
-.confirmar  {
+.enviar  {
     background:linear-gradient( to left, #ffe600ee, #f7003e); 
     color: black;
     padding: 10px;
     width: 210px;
-    height: 50px;
+    height: 20px;
     border:none;
     font-size: 20px;
     font-family: montserrat;
     -webkit-appearance: button;
-    margin: 0px 0px 0px 10px ;
+    margin: 29px 0px 20px -528px ;
     border-radius: 20px;
+    position: absolute;
 }
 .limpar  {
     background:linear-gradient( to left, #ffe600ee, #f7003e); 
@@ -207,8 +211,9 @@ margin: -1px 0px 0px -950px;
     font-size: 20px;
     font-family: montserrat;
     -webkit-appearance: button;
-    margin: 0px 0px 68px 250px;
+    margin: 3px 0px 55px 183px;
     border-radius: 20px;
+    position: absolute;
 }
 
 .cadastro{
@@ -233,18 +238,15 @@ margin: -1px 0px 0px -950px;
     margin:-10px 0px 0px -299px; 
 }
 .imagem{
-    margin:-290px 0px 0px 123px;
+    margin:-288px 0px -18px 275px;
     z-index: 0;
 }
-.botao{
-    margin: -70px 0px 0px 0px;
-}
-
 .texto2{
-background:linear-gradient( to left, #ffe600ee, #f7003e); 
+background:linear-gradient( to left, #ffe600ee, #f7003e,#f7003e); 
 height:25px;
 width: 1000px;
 font-size: 20px;
+border-radius:20px;
 }
 
 .baby{
@@ -252,7 +254,6 @@ margin: 0px -20px -28px 0px;
 }
 
 .dois{
-height: px;
 margin:-212px 0px 0px 181px;
 ;
 }
@@ -269,8 +270,8 @@ margin: 0px 0px 0px 188px;
 
 .famosas{
 margin:-457px -13px -125px 0px;
-
 }
+
 .gisele{
 margin:0px 0px 0px -171px  ;
 height:600px;
@@ -285,13 +286,11 @@ height:600px;
 margin:0px 0px 0px 0px  ;
 height:600px;
 }
-
-
 .cinco{
 margin:  -470px 0px 40px 255px;;
 }
 .seis{
-margin:-61px 0px -64px 248px;
+margin:-42px 0px -64px 248px;
 }
 .sete{
 margin:-600px 0px 141px 600px;
@@ -449,38 +448,99 @@ margin: 0px 0px 0px 0px;
     margin: -190px 0px 158px -400px; 
 }
 .famosasredondo{
-     margin: -467px 0px 415px 800px; 
+    margin: -467px 0px 415px 800px; 
 }.selena{
     margin: -450px 0px 350px 700px;
 }
 .redondo{
     margin: 0px 0px 70px 0px;
-    
 }
 
+.quadrado{
+    margin: 0px 0px 87px 0px ;
+}
+.quadrado1{
+    margin: 0px 0px 0px -200px ;
+}
+.quadrado2{
+    margin: -41px 0px 0px 680px ;
+}
+.contornoquadrado{
+    margin:-350px 0px 875px 159px;
+}
+.CTquadrado{
+margin: -202px 0px 508px -426px;
+}
+.famosasquadrado{
+    margin: -139px 0px 663px 71px;
+}
 
+.anne{
+    margin:0px 0px 0px 0px   ;
+}
+.joli{
+    margin: 0px 0px 0px 0px ;
+}
+.annejoli{
+    margin:-753px 0px 244px 824px;
+}
 
+.coração{
+    margin: 0px 0px 149px 0px ;
+}
+.coração1{
+    margin: 0px 0px 0px -29px ;
+}
 
+.coração2{
+    margin: -76px 0px 0px 650px ;
+}
 
+.contornocoração{
+    margin:-288px 0px 0px 128px;
+}
+.CTcoração{
+    margin: -200px 0px 30px 20px ;
+}
+.famosascoração{
+    margin: -201px 0px 230px 171px;
+}
 
+.secoflavia{
+    margin:-250px 0px 0px 750px;
+}
 
+.calculadora{
+    background:linear-gradient( #ffe600ee, #f7003e, #f7003e,#e203ff,#2904fcee); 
+    height: 577px;
+    width: 600px;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.calculadora input{
+    width: 260px;
+    height: 40px;
+    border:none;
+    font-family: montserrat;
+    border-radius: 10px;
+}
+.calculadora button {
+    background:linear-gradient( to left, #ffe600ee, #f7003e); 
+    color: black;
+    padding: 10px;
+    width: 100px;
+    height: 50px;
+    border:none;
+    font-size: 20px;
+    font-family: montserrat;
+    -webkit-appearance: button;
+    border-radius: 50px;
+}
+.div2{
+    float: right;
+}
+.blog{
+    margin: 0px 0px 0px 0px ;
+}
 
 .lais{
     margin: 0px 0px 0px 10px;
@@ -495,9 +555,51 @@ margin: 0px 0px 0px 0px;
     margin:16px 0px 0px 240px;
     font-size: 20px;
     border-radius: 15px;
+    font-style: porcelain;
 }
-.BP{
-    margin: 0px 0px 0px 240px;
-    color: white;
+.sobre2{
+    background:linear-gradient( #ffe600ee, #f7003e, #f7003e);
+    width: 750px;
+    margin:0px 0px 0px 26px;
+    font-size: 20px;
+    border-radius: 15px;
 }
-.
+
+.bemvinda{
+font-size:50px;
+margin: -12px 0px 139px 92px;
+position: relative; 
+}
+.texto{
+margin:-133px 0px 316px 10px;
+
+}
+.juntas{
+    margin:-237px 0px 232px 128px;
+}
+.porque{
+    margin: -327px 0px 230px 64px;
+}
+.pilares{
+    margin:-208px 0px 312px 58px;
+}
+.pilares1{
+    margin: -255px 0px 253px 88px;
+}
+
+.for{
+    margin: 0px 0px 0px 200px  ;
+}
+.every{
+    margin: 0px 0px -5px 20px
+}
+.one{
+    margin: 0px 0px 2px 0px  ;
+}
+.aqui{
+    margin: -264px 0px 115px 172px
+}
+.cubos{
+    margin: -192px 0px 0px -20px;
+    position: absolute;
+}

@@ -21,51 +21,58 @@
     </div>
     <center>
     <div class="caixa2">
-
 <br>
+<form name="cadastro">
     <h1 class="cadastro">Cadastro</h1>
 <br>
 
 <div class="email">
 <h3>E-mail</h3>
-<input id="email" placeholder="Insira seu e-mail " type="text" >
+<input id="idemail" placeholder="Insira seu e-mail " type="email" required="required" name="email" >
 </div>
 
 <br><br>
 
 <div class="cpf">
 <h3>CPF</h3>
-<input id="cpf" placeholder="Insira seu e cpf" type="text" >
+<input id="idcpf" placeholder="Insira seu e cpf" type="text" required="required" name="cpf" >
 </div>
 
 <br><br>
 <div class="data">
 <h3>Data de nascimento</h3>
-<input type="date" id="data">
+<input type="date" id="iddata" required="required" name="data">
 
 </div>
 
 <br><br>
 <div class="senha">
 <h3>Crie uma senha</h3>
-<input id="senha" placeholder="Insira sua senha" type="password" >
+<input id="idsenha" placeholder="Insira sua senha" type="password" required="required" name="senha" >
 </div>
 
 <br><br>
 <div class = "confirmação">
 <h3>Confirme a senha</h3>
-<input id="confirmação" placeholder="confirme sua senha" type="password" > 
+<input id="idconfirmação" placeholder="confirme sua senha" type="password" required="required" name="confirmação" > 
 </div>
 <img src="cadastro.png" class="imagem">
 
-<div class=" botao">
-<button onclick="confirmar()" class="confirmar">Confirmar</button>
+<input type="submit" class="enviar" onclick="Enviar();" value="Enviar" />
+</form>
 <button onclick="limpar()" class="limpar">Limpar </button>
-</div>       
+</div>
+</center>
+
+
+<div class="rodape">
+    <center>
+<h>for.everyone@hotmail.com</h>
     </center>
 </div>
 </body>
 </html>
+
 <style>
 .rodape{
     position:absolute;
@@ -74,37 +81,26 @@
     height: 24px;
     background:linear-gradient(to left, #ffe600ee,#f7003e, #f7003e,#e203ff,#2904fcee);
 }
-
 </style>
+
 <script>
 function limpar() {
-email.value = "";
-cpf.value ="";
-data.value ="";
-senha.value="";
-confirmação.value="";
-}
-</script>
-<script>
-function confirmar(){
-var email1 = email.value;
-var cpf1 = cpf.value;
-var data1 = data.value;
-var senha1 = senha.value;
-var confirmação1 = confirmação.value;
-if(email1 =="" || cpf1 == "" || data1 == "" || senha1 == ""||confirmação1 == ""){
-alert("insira todos os dados");
-}
-else if (senha1 != confirmação1){
-alert("As duas senhas estão incompativeis");   
-}
+idemail.value = "";
+idcpf.value ="";
+iddata.value ="";
+idsenha.value="";
+idconfirmação.value="";
 }
 </script>
 
-<div class="rodape">
-    <center>
-        
-   <h>for.everyone@hotmail.com</h>
-    </center>
-</div>
+<script>
+function enviar(){
+var email1 = idemail.value;
+var cpf1 = idcpf.value;
+var data1 = iddata.value;
+var senha1 = idsenha.value;
+var confirmação1 = idconfirmação.value;
+
+}
+</script>
 

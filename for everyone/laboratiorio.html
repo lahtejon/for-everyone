@@ -3,24 +3,50 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Laboratory</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>vamos descobrir qual o tipo do seu corpo ?</h1>
+    <div class="header">
+        <div class="container">
+            <img src="logo.png" class="logo">
+            <div class="nav">
+                <ul class="menu">
+                    <li></li> <a href="inicio.html" ><strong>Inicio</strong></a></li>
+                    <li> <a href="Sobre.html"><strong>sobre</strong></a></li>
+                    <li> <a href="body.html"><strong>body</strong></a></li>
+                    <li> <a href="face.html"><strong>Face</strong></a></li>
+                    <li class="current"><a href="laboratiorio.html"><strong>Laboratory</strong></a></li>
+                    <li> <a href="login.html" ><strong>Login</strong></a></li>
+                </ul>
+            </div>
+        </div>
+    </div> 
+    <div  class="calculadora">
+        <center>
+    <br><br>
+    <h1>Quer saber qual o tipo do seu corpo ?</h1>
     <br><br>
     <h2>infrome a medida dos seus ombros</h2>
     <input id="ombros" placeholder="ombros" type="text">
+    <br><br>
     <br>
     <h2>infrome a medida da sua cintura</h2>
     <input id="cintura" placeholder="cintura" type="text">
+    <br><br>
     <br>
     <h2>infrome a medida do seu quadril</h2>
     <input id="quadril" placeholder="quadril" type="text">
     <br><br>
+    <br><br>
     <button onclick="calcular()">Calcular</button>
     <button onclick="limpar()">Limpar</button>
     <div id="div_mes"></div>
-    
+    </center>
+    </div>
+    <div class="div2">
+    <button onclick="blog()" class="blog">Autoacaitação</button>
+    </div>
 </body>
 </html>
 <script>
@@ -34,21 +60,22 @@ function calcular(){
 var ombros1 = ombros.value;
 var cintura1 = cintura.value;
 var quadril1 = quadril.value;  
+
 div_mes.innerHTML= "";
 
-if (quadril1-cintura1<=5  && quadril1-ombros1<=5 && ombros1-cintura1<=5){
+if (quadril1-cintura1<=5 || cintura1-quadril<=5  && quadril1-ombros1<=5 || ombros1-quadril1<=5  && ombros1-cintura1<=5 ||  ombros1-cintura1 <=5){
 div_mes.innerHTML= `seu corpo é retangular`;
 }
-else if(ombros1-quadril1<=5 && ombros1-cintura1 >=20 && quadril1-cintura1>=20 ){
+else if(ombros1-quadril1<=5 || quadril-ombros1<5 && ombros1-cintura1 >=20 && quadril1-cintura1>=20 ){
 div_mes.innerHTML= `seu corpo é ampulheta`;
 }
-    else if (ombros1-cintura1>5 && quadril-cintura1<=5 && ombros1>quadril1){
+else if (ombros1-cintura1>5 && quadril1-cintura1<=5 && ombros1-quadril1>5){
 div_mes.innerHTML= `seu corpo é Trinagulo invertido`;}
 
-else if (quadril1-ombros>5 && quadril1-cintura>=8){
+else if (quadril1-ombros1 > 5 && quadril1-cintura1 >=8 && ombros1-cintura<=5){
     div_mes.innerHTML= `seu corpo é Pera`;
 }
-else if (cintura1>quadril){
+else if (cintura1-quadril1 >=10){
     div_mes.innerHTML= `seu corpo é maça`;
 }
 }
