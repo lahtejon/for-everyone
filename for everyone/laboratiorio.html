@@ -23,7 +23,7 @@
         </div>
     </div> 
     <section class="separação">
-    <div  class="calculadora" style="display: block;">
+    <div  class="calculadora" style="display: block;" id="calculadora">
         <center>
     <br><br>
     <img src="calculadora.png" class="calculadora1">
@@ -48,7 +48,7 @@
     </center>
     </div>
 
-    <div class="div2" style="display: block;" >
+    <div class="div2" style="display: block;" id="div2" >
     <center>
     <img src="saber.png" class="saber"><br><br>
     </center>
@@ -68,6 +68,15 @@
     </center>
     </div>
     </div>
+    
+    <div class="div5" id="div5" style="display:none;">
+        <button onclick="back()">Back</button>
+    </div>
+
+
+    <div class="div6" id="div6" style="display:none;">
+        <button onclick="back1()">Back</button>
+   </div>
 
 </section>
 </body>
@@ -103,3 +112,30 @@ else if (cintura1-quadril1 >=10){
 }
 }
 </script>
+
+<script>
+
+function amor(){
+
+calculadora.style = 'display:none;'
+div2.style = 'display:none;'
+div5.style='display:block;'
+}
+
+function back(){
+calculadora.style = 'display:block;'
+div2.style = 'display:block;'
+div5.style='display:none;'
+}
+function plastica(){
+calculadora.style = 'display:none;'
+div2.style = 'display:none;'
+div6.style='display:block;'
+}
+function back1(){
+calculadora.style = 'display:block;'
+div2.style = 'display:block;'
+div6.style='display:none;'
+}
+</script>
+

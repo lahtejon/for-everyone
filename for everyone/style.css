@@ -61,19 +61,7 @@ font-family: Montserrat;
     justify-content: center;
 } 
 
-
-.new input{
-    width: 225px;
-    height: 25px;
-}
-
-.btn {
-    background-color: rgb(233, 13, 13);
-    color: black;
-    border: none;
-    width: 60px;
-    height: 30px;
-}
+/* 1 part dos body /*/ 
 
 .box1{
 font-family:montserrat;
@@ -117,6 +105,8 @@ border-radius: 20px;
     -webkit-appearance: button;
     border-radius: 20px;
 }
+
+
 .box4 select{
     background:linear-gradient( to left, #ffe600ee, #f7003e); 
     color: black;
@@ -170,7 +160,6 @@ margin: -1px 0px 0px -950px;
     
 }    
 
-
 .caixa2{
     background:linear-gradient( #ffe600ee, #f7003e, #f7003e,#e203ff,#2904fcee); 
     width:  600px;
@@ -219,10 +208,10 @@ margin: -1px 0px 0px -950px;
 .cadastro{
     margin: 0px 0px 0px 0px;
 }
-.email{
+.nome{
     margin: 0px 0px 0px -300px;
 }
-.cpf{
+.email{
     margin: -20px 0px 0px -300px;
 }
 .data{
@@ -658,4 +647,32 @@ margin:-133px 0px 316px 10px;
 .cubos{
     margin: -192px 0px 0px -20px;
     position: absolute;
+}
+
+.div5 button {
+    background:linear-gradient( #f7003e, #ffe600ee);
+    color: black;
+    padding: 10px;
+    width: 150px;
+    height: 50px;
+    border:none;
+    font-size: 20px;
+    font-family: montserrat;
+    -webkit-appearance: button;
+    border-radius: 50px;
+    margin:10px 0px 0px 5px ;
+}
+
+.div6 button {
+    background:linear-gradient( #f7003e, #ffe600ee);
+    color: black;
+    padding: 10px;
+    width: 150px;
+    height: 50px;
+    border:none;
+    font-size: 20px;
+    font-family: montserrat;
+    -webkit-appearance: button;
+    border-radius: 50px;
+    margin:10px 0px 0px 5px ;
 }

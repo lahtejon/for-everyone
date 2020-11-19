@@ -23,21 +23,22 @@
     <div class="caixa2">
 <br>
 <form name="cadastro">
+
     <h1 class="cadastro">Cadastro</h1>
 <br>
 
-<div class="email">
-<h3>E-mail</h3>
-<input id="idemail" placeholder="Insira seu e-mail " type="email" required="required" name="email" >
+<div class="nome">
+<h3>Nome</h3>
+<input id="nome" placeholder="Insira seu nome" type="text" required="required" name="nome" maxlength="30" >
 </div>
 
 <br><br>
 
-<div class="cpf">
-<h3>CPF</h3>
-<input id="idcpf" placeholder="Insira seu e cpf" type="text" required="required" name="cpf" >
-</div>
-
+<div class="email">
+    <h3>E-mail</h3>
+    <input id="idemail" placeholder="Insira seu e-mail " type="email" required="required" name="email" >
+    </div>
+    
 <br><br>
 <div class="data">
 <h3>Data de nascimento</h3>
@@ -48,7 +49,7 @@
 <br><br>
 <div class="senha">
 <h3>Crie uma senha</h3>
-<input id="idsenha" placeholder="Insira sua senha" type="password" required="required" name="senha" >
+<input id="idsenha" placeholder="Insira sua senha" type="password" required="required" name="senha" data-min-lengt="5" >
 </div>
 
 <br><br>
@@ -86,7 +87,7 @@
 <script>
 function limpar() {
 idemail.value = "";
-idcpf.value ="";
+idnome.value ="";
 iddata.value ="";
 idsenha.value="";
 idconfirmação.value="";
@@ -95,11 +96,18 @@ idconfirmação.value="";
 
 <script>
 function enviar(){
-var email1 = idemail.value;
-var cpf1 = idcpf.value;
-var data1 = iddata.value;
-var senha1 = idsenha.value;
-var confirmação1 = idconfirmação.value;
+var email1 = cadastro.email.value;
+var nome1 = cadastro.nome.value;
+var data1 = cadastro.data.value;
+var senha1 = cadastro.senha.value;
+var confirmação1 = cadastro.confirmação.value;
+
+("[required]")
+
+if(senha1 != confirmação1){
+
+}
+
 
 }
 </script>
