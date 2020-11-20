@@ -123,6 +123,7 @@ border-radius: 20px;
 
 
 .caixa1 {
+    position:absolut;
     background:linear-gradient( #ffe600ee, #f7003e, #f7003e,#e203ff,#2904fcee); 
     width: 500px;
     height: 400px;
@@ -150,13 +151,28 @@ border-radius: 20px;
     font-family: montserrat;
     -webkit-appearance: button;
     border-radius: 50px;
+}  
+
+.cadastrar{
+    background:linear-gradient( to left, #ffe600ee, #f7003e); 
+    color: black;
+    padding: 10px;
+    width: 120px;
+    height: 50px;
+    border:none;
+    font-size: 20px;
+    font-family: montserrat;
+    -webkit-appearance: button;
+    border-radius: 50px;
+    margin: -24px 0px 0px 5px ;
 }
+
 .dialogo2{
-margin:-280px 0px 0px 990px;
+margin: -275px 0px 0px 990px;
     }
 
 .dialogo1{
-margin: -1px 0px 0px -950px;
+margin: -41px 0px 0px 130px;
     
 }    
 
@@ -523,6 +539,7 @@ margin: -202px 0px 508px -426px;
     font-family: montserrat;
     -webkit-appearance: button;
     border-radius: 50px;
+   
 }
 
 .calculadora1{
@@ -633,10 +650,10 @@ margin:-133px 0px 316px 10px;
 }
 
 .for{
-    margin: 0px 0px 0px 200px  ;
+    margin: 0px 0px 0px 0px  ;
 }
 .every{
-    margin: 0px 0px -5px 20px
+    margin: 0px 0px -5px 30px
 }
 .one{
     margin: 0px 0px 2px 0px  ;
@@ -675,4 +692,62 @@ margin:-133px 0px 316px 10px;
     -webkit-appearance: button;
     border-radius: 50px;
     margin:10px 0px 0px 5px ;
+}
+
+.sb2{
+    margin: -10px 0px 0px 300px;
+}
+
+.sb1{
+    margin: 0px 0px 0px 300px;
+}
+.pesquise{
+    margin: 0px 0px 0px 200px ;
+
+}
+.clinicas{
+    background-color: rgba(255, 255, 255, 0.582);
+    margin: -50px 0px 0px 0px ;
+}
+.clinicas1{
+float: right;
+margin: -1290px 10px 0px 0px ;
+
+}
+.ct{
+    margin: 0px 0px 0px 80px;
+}
+
+.textoclinica{
+    margin: 0px 0px 0px 35px ;
+}
+.textoclinica1{
+    margin: 0px 0px 0px 30px ;
+}
+.textoclinica2{
+    margin: 0px 0px 0px 20px ;
+}
+.clinica1{
+    margin: 0px 0px 0px 0px ; 
+    border-radius: 30px;
+}
+.clinica2{
+    margin: 0px 0px 0px 0px ; 
+    border-radius: 30px;
+}
+.clinica3{
+    margin: 0px 0px 0px 0px ; 
+    border-radius: 30px;
+}
+.clinica4{
+    margin: 0px 0px 0px 0px ; 
+    border-radius: 30px;
+}
+.clinica5{
+    margin: 0px 0px 0px 110px ;
+    border-radius: 30px; 
+}
+.mulher{
+    background-color: rgba(255, 255, 255, 0.582);
+    margin: -50px 0px 0px 0px ;
 }
