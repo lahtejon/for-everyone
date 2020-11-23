@@ -40,7 +40,6 @@
     <h2>infrome a medida do seu quadril</h2>
     <input id="quadril" placeholder="quadril" type="text">
     <br><br>
-    <br><br>
     <button onclick="calcular()">Calcular</button>
     <button onclick="limpar()">Limpar</button>
     <div id="div_mes"></div>
@@ -51,39 +50,52 @@
     <div class="div2" style="display: block;" id="div2" >
     <center>
     <img src="saber.png" class="saber"><br><br>
-    </center>
+    
     <div class="div3" style="display: block;" >
     <img src="seta.png" class="seta1" height="50px">
     <img src="saber1.png" class="saber1">
-    <center>
     <button onclick="amor()" class="amor">Clique aqui</button>
-</center>
+
     </div>
     <br>
     <div class="div4">
     <img src="seta.png" class="seta2" height="50px">
     <img src="saber2.png" class="saber2" height="120px">
-    <center> 
     <button onclick="plastica()" class="plastica">Clique aqui</button>
     </center>
     </div>
     </div>
     
-    <div class="div5" id="div5" style="display:none;">
-        <button onclick="back()">Back</button><br>
+    <div class="div5" id="div5" style="display:none;" style="height: 1800px;">
+        <button onclick="back()" class="back1">Back</button><br>
         <img src="sb1.png" class="sb1">
         <br>
 <div class="mulher" style="width:1349px; height:1300px;">
+<img src="referencia.png" class="referencia">
+<div class="bt">
+<img src="textoblog1.png" class="textoblog1">
+<br>
+<img src="textoblog2.png" class="textoblog2">
+<br>
+<img src="textoblog3.png" class="textoblog3"><br>
+<img src="final.png" class="final2">
 </div>
-<div class="mulher1">
-<img src="blog1.jp">
+<div class="galeria">
+<a href="http://www.instagram.com/letticia.munniz/" target="_blank"><img src="blog1.jpeg" class="blog1" img-responsive img-thumbnail height="400px"></a>
+<a href="https://www.instagram.com/jessicalopes/" target="_blank"><img src="blog2.jpeg" class="blog2" height="400px"></a>
+<br>
+<div class="divblog">
+<a href="https://www.instagram.com/hanakhalilal/" target="_blank"><img src="blog3.jpeg" class="blog3" height="400px"></a>
+<a href="https://www.instagram.com/carolineferreiraoficial/" target="_blank"><img src="blog4.jpeg" class="blog4" height="400px"></a>
+<br>
+</div>
+<a href="https://www.instagram.com/alexandrismos/"  target="_blank"><img src="blog5.jpeg" class="blog5" height="400px"></a>
 </div>
 </div>
-    
-
+</div>
 
     <div class="div6" id="div6" style="display:none;">
-        <button onclick="back1()">Back</button><br>
+        <button onclick="back1()" class="back2">Back</button><br>
         <img src="sb2.png" class="sb2">
         <br>
         <div  class="clinicas" style="width:1349px; height:1300px;">
@@ -92,23 +104,41 @@
         <img src="clinicatexto.png" class="textoclinica">
         <img src="clinicatexto1.png" class="textoclinica1">
         <img src="clinicatexto2.png" class="textoclinica2">
+        <img src="final.png" class="final2">
         </div>
         <br>
     </div>
         <div class="clinicas1" >
-        <img src="clinica1.jpeg" class="clinica1" height="400px">
-        <img src="clinica2.jpeg" class="clinica2"height="400px">
+    <a href="https://www.instagram.com/clinicamadrid/" target="_blank"><img src="clinica1.jpeg" class="clinica1" height="400px"></a>
+        <a href="https://www.instagram.com/jkesteticaavancada/"target="_blank" ><img src="clinica2.jpeg" class="clinica2"height="400px"></a>
         <br>
-        <img src="clinica3.jpeg" class="clinica3"height="400px">
-        <img src="clinica4.jpeg" class="clinica4"height="400px">
+        <a href="https://www.instagram.com/dreamplastic.cirurgiaplastica/" target="_blank"><img src="clinica3.jpeg" class="clinica3"height="400px"></a>
+        <a href="https://www.instagram.com/spabelezaeesteticapaulista/" target="_blank"><img src="clinica4.jpeg" class="clinica4"height="400px"></a>
         <br>
-        <img src="clinica5.jpeg" class="clinica5"height="400px">
+        <a href="https://www.instagram.com/lmrcirurgiaplastica.pt/" target="_blank"><img src="clinica5.jpeg" class="clinica5"height="400px"></a>
     </div>
     </div>
-
 </section>
+<br>
+<div class="rodape">
+    
+    <center>
+            
+        <h>for.everyone@hotmail.com</h>
+</center>
+</div>
 </body>
 </html>
+<style>
+    .rodape{
+        position: relative;
+        bottom:0;
+        width:100%;
+        height: 23px;
+        background:linear-gradient(to left, #ffe600ee,#f7003e, #f7003e,#e203ff,#2904fcee);
+        
+    }
+</style>
 
 <script>
 function limpar(){
@@ -124,20 +154,20 @@ var quadril1 = quadril.value;
 
 div_mes.innerHTML= "";
 
-if (quadril1-cintura1<=5 || cintura1-quadril<=5  && quadril1-ombros1<=5 || ombros1-quadril1<=5  && ombros1-cintura1<=5 ||  ombros1-cintura1 <=5){
+if (quadril1-cintura1<=5  && quadril1-ombros1<=5  && ombros1-cintura1<=5 ){
 div_mes.innerHTML= `seu corpo é retangular`;
 }
-else if(ombros1-quadril1<=5 || quadril-ombros1<5 && ombros1-cintura1 >=20 && quadril1-cintura1>=20 ){
+else if(ombros1-cintura1>=20 && ombros1-quadril1<=5  && quadril1-cintura1>=20){
 div_mes.innerHTML= `seu corpo é ampulheta`;
 }
 else if (ombros1-cintura1>5 && quadril1-cintura1<=5 && ombros1-quadril1>5){
-div_mes.innerHTML= `seu corpo é Trinagulo invertido`;}
-
-else if (quadril1-ombros1 > 5 && quadril1-cintura1 >=8 && ombros1-cintura<=5){
-    div_mes.innerHTML= `seu corpo é Pera`;
+div_mes.innerHTML= `seu corpo é Trinagulo invertido`;
 }
-else if (cintura1-quadril1 >=10){
-    div_mes.innerHTML= `seu corpo é maça`;
+else if (quadril1-cintura1>=8 && quadril1-ombros1>5 && ombros1-cintura1<=5){
+div_mes.innerHTML= `seu corpo é Pera`;
+}
+else if (cintura1-quadril1>5 && quadril1-ombros1<=5 && cintura1-ombros1>5){
+div_mes.innerHTML= `seu corpo é maça`;
 }
 }
 </script>

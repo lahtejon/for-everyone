@@ -153,6 +153,12 @@ border-radius: 20px;
     border-radius: 50px;
 }  
 
+.caixa1 button:hover{
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -o-transform: scale(1.1);
+    transform: scale(1.1);
+}
 .cadastrar{
     background:linear-gradient( to left, #ffe600ee, #f7003e); 
     color: black;
@@ -166,13 +172,26 @@ border-radius: 20px;
     border-radius: 50px;
     margin: -24px 0px 0px 5px ;
 }
+.cd button:hover{
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -o-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+.divdialogo1 img:hover{
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -o-transform: scale(1.1);
+    transform: scale(1.1);
+}
 
 .dialogo2{
 margin: -275px 0px 0px 990px;
     }
 
 .dialogo1{
-margin: -41px 0px 0px 130px;
+margin: -60px 0px 0px 130px;
     
 }    
 
@@ -192,6 +211,13 @@ margin: -41px 0px 0px 130px;
     border-radius: 10px;
 }
 
+.caixa2 button:hover{
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -o-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
 .enviar  {
     background:linear-gradient( to left, #ffe600ee, #f7003e); 
     color: black;
@@ -202,7 +228,7 @@ margin: -41px 0px 0px 130px;
     font-size: 20px;
     font-family: montserrat;
     -webkit-appearance: button;
-    margin: 29px 0px 20px -528px ;
+    margin: 0px 0px 22px -280px ;
     border-radius: 20px;
     position: absolute;
 }
@@ -220,6 +246,7 @@ margin: -41px 0px 0px 130px;
     border-radius: 20px;
     position: absolute;
 }
+
 
 .cadastro{
     margin: 0px 0px 0px 0px;
@@ -303,7 +330,7 @@ margin:-600px 0px 141px 600px;
 }
 
 .famosas2{
-margin:-165px 0px 0px 32px;  
+margin:-70px 0px 0px 32px;  
 }
 
 .kin{
@@ -355,7 +382,7 @@ margin: -92px 0px 0px 0px;
 }
 
 .famosas4{
-margin: -150px 0px 0px 0px ;
+margin: -220px 0px 0px 0px ;
 }
 
 .onze{
@@ -393,7 +420,7 @@ margin:-467px 0px 123px 680px;
 margin:-600px 0px 150px 600px;
 }
 .famosas5{
-    margin:-200px 0px 0px 100px;
+    margin:-272px 0px 0px 100px;
 }
 .cacau{
     margin:0px 0px 0px 0px;
@@ -517,8 +544,10 @@ margin: -202px 0px 508px -426px;
 
 .calculadora{
     background:linear-gradient( #ffe600ee, #f7003e, #f7003e,#e203ff,#2904fcee); 
-    height: 577px;
-    width: 600px;
+    height: 500px;
+    width: 650px;
+    border-radius: 20px;
+    margin: 34px 0px 0px 12px;
 }
 
 .calculadora input{
@@ -538,8 +567,14 @@ margin: -202px 0px 508px -426px;
     font-size: 20px;
     font-family: montserrat;
     -webkit-appearance: button;
-    border-radius: 50px;
-   
+    border-radius: 50px; 
+}
+
+.calculadora button:hover{
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -o-transform: scale(1.1);
+    transform: scale(1.1);
 }
 
 .calculadora1{
@@ -550,11 +585,15 @@ margin: -202px 0px 508px -426px;
 }
 
 .div2{
+    position: relative;
     background:linear-gradient(#ffe600ee, #f7003e, #f7003e,#e203ff,#2904fcee); 
-    height: 577px;
+    height: 500px;
     width: 650px;
     float: right;
-    margin: 0px 0px 0px 120px;
+    margin:34px 0px 0px 40px;
+    border-radius: 20px;
+    border:black;
+
 }
 
 .separação{
@@ -584,8 +623,18 @@ margin: -20px 0px 0px 0px;
     border-radius: 50px;
     margin: -39px 0px 43px -109px;
 }
+.div3 button:hover{
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -o-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
 .seta2{
-    margin: 0px 0px 68px 0px;
+    margin: 0px 0px 32px 0px;
+}
+.div4{
+    margin: -29px 0px 0px 0px;
 }
 .div4 button{
     background:linear-gradient( #f7003e, #ffe600ee);
@@ -600,32 +649,79 @@ margin: -20px 0px 0px 0px;
     border-radius: 50px;
     margin: -29px 0px 11px -105px;
 }
-
-
-
+.div4 button:hover{
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -o-transform: scale(1.1);
+    transform: scale(1.1);
+}
 
 .lais{
-    margin: 0px 0px 0px 10px;
+    margin: 0px 0px 0px 30px;
+    border-radius: 20px;
 }
-.h1{
-    margin: -270px 0px 0px 200px;
+.lais1{
+    margin: 0px 0px 0px 0px;
+}
+.lais1 img:hover{
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -o-transform: scale(1.1);
+    transform: scale(1.1);
+}
+.valorizar{
+    margin: -312px 0px 195px 259px;
+}
+.divsobre{
+    float:right;
+    margin: 0px 0px 0px 0px;
     font-size: 30px;
 }
-.sobre{
-    background:linear-gradient( #ffe600ee, #f7003e, #f7003e);
-    width: 1100px; 
-    margin:16px 0px 0px 240px;
-    font-size: 20px;
-    border-radius: 15px;
-    font-style: porcelain;
+.abrefecha{
+margin: 0px 0px 0px 0px;
 }
-.sobre2{
-    background:linear-gradient( #ffe600ee, #f7003e, #f7003e);
-    width: 750px;
-    margin:0px 0px 0px 26px;
-    font-size: 20px;
-    border-radius: 15px;
+.h1{
+    float:left;
+    z-index: 0;
+    position: relative;
+    margin: -24px 0px 0px 0px;
 }
+.abre{
+    
+margin: 0px 0px 0px -611px;
+}
+.fecha{
+    
+    margin: 0px 0px 58px 0px;
+}
+.sobretexto{
+    position: relative;
+    margin: -90px 0px 0px 0px;
+}
+.sobretexto1{
+    position: relative;
+    margin: 0px 0px 0px 0px;
+}
+.sobretexto2{
+    position: relative;
+    float: right;
+    margin: 6px 84px 0px 0px;
+}
+.sobretexto3{
+    float: right ;
+    position: relative;
+    margin: -141px 109px 0px 0px;
+}
+.textosobre4{
+margin:-287px 0px 25px 254px;
+}
+
+.estrelas{
+    float: right;
+    margin: -106px 76px 0px 0px ;
+}
+
+
 
 .bemvinda{
 font-size:50px;
@@ -694,6 +790,19 @@ margin:-133px 0px 316px 10px;
     margin:10px 0px 0px 5px ;
 }
 
+.div5 button:hover{
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -o-transform: scale(1.1);
+    transform: scale(1.1);
+}
+.div6 button:hover{
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -o-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
 .sb2{
     margin: -10px 0px 0px 300px;
 }
@@ -711,13 +820,21 @@ margin:-133px 0px 316px 10px;
 }
 .clinicas1{
 float: right;
-margin: -1290px 10px 0px 0px ;
-
+margin: -1289px 15px 0px 0px;
+}
+.clinicas1 img:hover{
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -o-transform: scale(1.1);
+    transform: scale(1.1);
 }
 .ct{
-    margin: 0px 0px 0px 80px;
+    margin: -30px 0px 0px 80px;
 }
+.textosclinicas{
+    margin: 0px 0px 0px 0px;
 
+}
 .textoclinica{
     margin: 0px 0px 0px 35px ;
 }
@@ -748,6 +865,57 @@ margin: -1290px 10px 0px 0px ;
     border-radius: 30px; 
 }
 .mulher{
+    
     background-color: rgba(255, 255, 255, 0.582);
     margin: -50px 0px 0px 0px ;
 }
+.galeria img:hover{
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -o-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+.galeria{
+    float: right;
+    margin: -1257px 3px 0px 0px;
+}
+.blog1{
+    margin: 0px 0px 0px 0px;
+    border-radius: 20px;
+}
+.blog2{
+    margin: 0px 0px 0px 0px;
+    border-radius: 20px;
+}
+.blog3{
+    margin: 0px 0px 0px 0px;
+    border-radius: 20px;
+}
+.blog4{
+    margin: 0px 0px 0px 0px;
+    border-radius: 20px;
+}
+.blog5{
+    margin: 0px 0px 0px 104px;
+    border-radius: 20px;
+}
+
+.divblog{
+    margin: 0px 8px 0px -2px;
+}
+.bt{
+    margin: 0px 0px 0px 120px;  
+}
+.referencia{
+    margin: 0px 0px 0px 250px;
+}
+.textoblog1{
+    margin: 0px 0px 0px 0px;
+}
+.textoblog2{
+    margin: 0px 0px 0px 0px;
+}
+.textoblog3{
+        margin: 0px 0px 0px 0px;
+    }
