@@ -16,25 +16,36 @@
                     <li></li> <a href="inicio.html" ><strong>Inicio</strong></a></li>
                     <li> <a href="Sobre.html"><strong>sobre</strong></a></li>
                     <li class="current"> <a href="body.html"><strong>body</strong></a></li>
-                    <li> <a href="face.html"><strong>face</strong></a></li>
                     <li><a href="laboratiorio.html"><strong>Laboratory</strong></a></li>
                     <li> <a href="login.html" ><strong>login</strong></a></li>
                 </ul>
-            
         </div>
-    </div>
-        <center>
+    </div>    
 <div id="box1" style="display: block;">
-    <br><br>
-<p><h2 class="texto1">Cada corpo é unico e quando usamos nossas peculiaridades a nosso favor encontramos um jeito unico de elevar nossa auto estima.</h2>    
-</p>
-<img src="corpos3.png" class="corpos">
+<br>
+<div class="texto1">
+<img src="body.png"><br>
+<img src="texto1body.png" class="body1"><br>
+<img src="texto2body.png"class="body2"><br> 
+<img src="texto3body.png" class="body3"><br>
+<div class="divclique">
+<img src="texto4body.png"class="body4">
+<a href="laboratiorio.html"><button class="clique">Clique aqui</button></a>
 </div>
-            </center>
+</div>
+<div class="corpos">
+<img src="corpobody.png" class="corpo1"><br>
+<img src="corpos3.png" class="corpo2">
+</div>
 
-            <center>
-    <div class="box2" id="Box2">
-        <br>
+</div>
+<div id="br" style="display: none;">
+<br>
+<h1 style="color: rgba(240, 248, 255, 0);">KKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKK</h1>
+<br> 
+</div>
+
+<div class="box2" id="Box2" style="display: block;">
 <select id="tiposCorpo" onchange="corpo()">
     <option value="qual">Qual o tipo do seu corpo ?</option>
     <option value="Retangular">Retangular</option>
@@ -43,14 +54,12 @@
     <option value="Pera">Pêra</option>
     <option value="Maça">Maçã</option>
 </select>
-</center>
 </div>
 
-<div class="CX1">
-<div id="retangular1" style="display:none;" style="background-color: rgba(245, 245, 220, 0.781);">    
+<div id="retangular1" style="display:none;" style="background-color: rgba(245, 245, 220, 0.781);">
+<br>    
 <img src="retangulo.png"style="height: 500px;" class="retangular">
 </div>
-
 <div  id="um" class="um" style="display: none;" >
 <img src="um2.png" class="dois">
 <img src="dois.png" class="tres">
@@ -63,10 +72,9 @@
 <img src="nicole.png" class="nicole">
 </center>
 </div>
-</div>
-
 
 <div id="ampulheta1" style="display:none;">
+<br>
 <img src="ampulheta.png"style="height: 500px;" class="maça"> 
 <img src="quatro.png" class="cinco">
 <img src="cinco.png" class="seis">
@@ -84,6 +92,7 @@
 
 
 <div id="triangulo1" style="display:none;">
+<br>
 <img src="triangulo.png"style="height: 500px;" class="trianguloI"> 
 <img src ="sete.png" class="oito">
 <img src="oito.png" class="nove" >
@@ -100,6 +109,7 @@
 </div>
 
 <div id="pera1" style="display:none;">
+<br>
 <img src="pera.png"style="height: 500px;" class="pera"> 
 <img src="dez.png" class="onze">
 <img src="onze.png" class="doze">
@@ -115,6 +125,7 @@
 </div>
 
 <div id="maça1" style="display:none;">
+<br>
 <img src="maça.png"style="height: 500px;" class="maça"> 
 <img src="treze.png" class="quatorze">
 <img src="quatorze.png" class="quinze">
@@ -138,16 +149,18 @@
 </div>
 </body>
 </html>
+
 <style>
     .rodape{
+    position: role;
     bottom:0;
     width:100%;
     height: 24px;
     background:linear-gradient(to left, #ffe600ee,#f7003e, #f7003e,#e203ff,#2904fcee);
-    margin: 5px 0px 0px 0px;
+    margin: -19px 0px 0px 0px;
 }
-
 </style>
+
 <script>
 function corpo(){
 if(tiposCorpo.value == "qual"){
@@ -158,6 +171,7 @@ if(tiposCorpo.value == "qual"){
     triangulo1.style ='display:none;'
     pera1.style='display:none;'
     maça1.style = "display:none;"
+    br.style ="display:none;"
 }
 else if (tiposCorpo.value == "Retangular"){
     box1.style = 'display: none;'
@@ -167,6 +181,7 @@ else if (tiposCorpo.value == "Retangular"){
     triangulo1.style ='display:none;'
     pera1.style='display:none;'
     maça1.style = "display:none;"
+    br.style="display:block;"
 }  
 else if (tiposCorpo.value =="Ampulheta"){
     box1.style = "display: none;"
@@ -176,6 +191,7 @@ else if (tiposCorpo.value =="Ampulheta"){
     triangulo1.style ='display:none;'
     pera1.style='display:none;'
     maça1.style = "display:none;"
+    br.style="display:block;"
 }
 else if (tiposCorpo.value =="Triangulo"){
     box1.style = "display: none;"
@@ -185,6 +201,8 @@ else if (tiposCorpo.value =="Triangulo"){
     triangulo1.style ='display:block;'
     pera1.style='display:none;'
     maça1.style = "display:none;"
+    br.style="display:block;"
+
 }
 else if (tiposCorpo.value =="Pera"){
     box1.style = "display: none;"
@@ -194,6 +212,8 @@ else if (tiposCorpo.value =="Pera"){
     triangulo1.style ='display:none;'
     pera1.style='display:block;'
     maça1.style = "display:none;"
+    br.style="display:block;"
+
 }
 else if (tiposCorpo.value =="Maça"){
     box1.style = "display: none;"
@@ -203,6 +223,7 @@ else if (tiposCorpo.value =="Maça"){
     triangulo1.style ='display:none;'
     pera1.style='display:none;'
     maça1.style = "display:block;"
+    br.style="display:block;"
 }
 }   
 </script>

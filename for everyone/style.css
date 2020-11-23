@@ -85,15 +85,59 @@ margin:-129px 0px 0px 0px  ;
 height:100px ;
 }
 
-.texto1{
-background:linear-gradient( to left, #ffe600ee, #f7003e); 
-height:25px;
-width: 1200px;
-font-size: 20px;
-border-radius: 20px;
-
+.body1{
+margin: -24px 0px 0px 0px;
 }
+.body2{
+    margin: -32px 0px 0px 0px;
+    }
+    .body3{
+        margin: -74px 0px 0px -10px;
+        }
+        .body4{
+            margin: -43px 0px 0px 0px;
+            }
+.corpos{
+    
+float: right;
+margin: -550px 70px 0px 0px;
+}
+            
+.corpos1{
+    
+    margin: 0px 0px 0px 0px;
+}
+.corpos2{
+    float: right;
+    margin: -200px 0px 0px 0px;
+}
+
+.clique{
+    position: relative;
+    float: left;
+    background:linear-gradient( to left, #ffe600ee, #f7003e); 
+    color: black;
+    padding: 10px;
+    width: 150px;
+    height: 50px;
+    border:none;
+    font-size: 20px;
+    font-family: montserrat;
+    -webkit-appearance: button;
+    border-radius: 50px; 
+    margin: -20px 0px -44px 430px;
+}
+
+.divclique button:hover{
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -o-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+
 .box2 select{
+    float: right;
     background:linear-gradient( to left, #ffe600ee, #f7003e); 
     color: black;
     padding: 10px;
@@ -104,8 +148,8 @@ border-radius: 20px;
     font-family: montserrat;
     -webkit-appearance: button;
     border-radius: 20px;
+    margin: -70px 201px 20px 0px;
 }
-
 
 .box4 select{
     background:linear-gradient( to left, #ffe600ee, #f7003e); 
