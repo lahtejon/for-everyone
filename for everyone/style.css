@@ -7,7 +7,7 @@ body {
     margin: 0;
     padding: 0; 
 
-        background: url(fundo1.jpg) no-repeat fixed center top;
+        background: url(img/fundo1.jpg) no-repeat fixed center top;
         background-repeat: no-repeat;
         background-size:cover;
         background-position: center;
@@ -19,7 +19,7 @@ body {
 }
 
 .header {
-background-image:url(logo.png);
+background-image:url(img/logo.png);
 background-repeat: no-repeat;
 background-size:100px;
 background-position-y: center;
@@ -597,7 +597,8 @@ margin: -202px 0px 508px -426px;
 .calculadora input{
     width: 260px;
     height: 40px;
-    border:none;
+    border: none;
+    border-color: red;
     font-family: montserrat;
     border-radius: 10px;
 }
@@ -625,7 +626,16 @@ margin: -202px 0px 508px -426px;
     margin: -50px 0px 0px 0px;
 }
 .imput{
-    margin: -36px 0px 20px 0px ;
+    margin: -70px 0px 20px 0px ;
+}
+.ombros{
+    margin: -50px 0px 0px 0px;
+}
+.cintura{
+    margin: -50px 0px 0px 0px;
+}
+.quadril{
+    margin: -60px 0px 0px 0px;
 }
 
 .div2{
