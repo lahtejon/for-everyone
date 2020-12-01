@@ -1,0 +1,929 @@
+/* corpo do site/*/
+body {
+    font-family:montserrat;
+    margin: 0;
+    padding: 0; 
+
+        background: url(img1/fundo.jpg) no-repeat fixed center top;
+        background-repeat: no-repeat;
+        background-size:cover;
+        background-position: center;
+}
+/* menu/*/
+.logo {
+    height: 64px;
+    margin: -37px 0px 0px 0px;
+}
+
+.header {
+background-repeat: no-repeat;
+background-size:100px;
+background-position-y: center;
+
+background:linear-gradient(to left, #ffe600ee,#f7003e, #f7003e,#e203ff,#2904fcee);
+height: 18px;
+padding-top: 30px;}
+.header .nav .current a, .header span {
+    background:linear-gradient( #ff8f8f , #ff1852, );
+    color:black;}
+
+.nav ul
+{
+    margin: -15px 14px -8px 0px;
+}
+
+.title-header{
+    float: left;
+    color: white;
+}
+
+.nav{
+float: right;
+font-size: 20px;
+}
+
+.nav a{
+text-decoration:none;
+color: #000000;
+text-transform: uppercase;
+margin: 0 auto 0 auto;
+font-family: Montserrat;
+}
+
+.nav li{
+    display: inline-block;
+    padding: 0px 10px 0 20px;
+    margin: 0;
+    justify-content: center;
+} 
+/* inicio */
+
+.bemvinda{
+    font-size:50px;
+    margin: 0px 0px 0px 0px;
+    position: relative; 
+    }
+    .texto{
+    margin: 0px 0px 0px 32px;
+    
+    }
+    .juntas{
+        float: right;
+        margin:0px 9px 0px 0px;
+    }
+    .porque{
+        margin: 0px 0px 0px 70px;
+    }
+    .pilares{
+        margin: 20px 0px 0px 35px;
+    }
+    .pilares1{
+        float: right;
+        margin: 0px 5px 0px 0px;
+    }
+    
+    .for{
+        margin: 0px 0px 0px 0px ;
+    }
+    .every{
+        margin: 0px 0px -5px 30px
+    }
+    .one{
+        margin: 0px 0px 2px 0px  ;
+    }
+    .aqui{
+        margin: 10px 0px 0px 50px;
+    }
+    .cubos{
+        position: relative;
+        margin: -311px 0px 0px 0px;
+        float: right;
+    }
+
+/* body tela inicial /*/ 
+
+.box1{
+font-family:montserrat;
+}
+
+.maça{
+margin:-129px 0px 0px 0px  ;
+
+height:100px ;
+}
+
+.body1{
+margin: -24px 0px 0px 0px;
+}
+.body2{
+    margin: -32px 0px 0px 0px;
+    }
+    .body3{
+        margin: -74px 0px 0px -10px;
+        }
+        .body4{
+            margin: -43px 0px 0px 0px;
+            }
+.corpos{
+    
+float: right;
+margin: -550px 70px 0px 0px;
+}
+            
+.corpos1{
+    
+    margin: 0px 0px 0px 0px;
+}
+.corpos2{
+    float: right;
+    margin: -200px 0px 0px 0px;
+}
+
+.clique{
+    position: relative;
+    float: left;
+    background:linear-gradient( to left, #ffe600ee, #f7003e); 
+    color: black;
+    padding: 10px;
+    width: 150px;
+    height: 50px;
+    border:none;
+    font-size: 20px;
+    font-family: montserrat;
+    -webkit-appearance: button;
+    border-radius: 50px; 
+    margin: -20px 0px -44px 430px;
+}
+
+.divclique button:hover{
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -o-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+
+.box2 select{
+    float: right;
+    background:linear-gradient( to left, #ffe600ee, #f7003e); 
+    color: black;
+    padding: 10px;
+    width: 260px;
+    height: 50px;
+    border:none;
+    font-size: 20px;
+    font-family: montserrat;
+    -webkit-appearance: button;
+    border-radius: 20px;
+    margin: -70px 201px 20px 0px;
+}
+/* tela de login */
+.caixa1 {
+    position: relative;
+    background:linear-gradient( #ffe600ee, #f7003e, #f7003e,#e203ff,#2904fcee); 
+    width: 500px;
+    height: 400px;
+    font-family: montserrat;
+    margin: -50px 0px 0px 0px;
+    border-radius:20px;
+}
+
+.caixa1 input{
+    width: 260px;
+    height: 40px;
+    border:none;
+    font-family: montserrat;
+    border-radius: 20px;
+}
+
+.caixa1 button {
+    background:linear-gradient( to left, #ffe600ee, #f7003e); 
+    color: black;
+    padding: 10px;
+    width: 100px;
+    height: 50px;
+    border:none;
+    font-size: 20px;
+    font-family: montserrat;
+    -webkit-appearance: button;
+    border-radius: 50px;
+}  
+
+.caixa1 button:hover{
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -o-transform: scale(1.1);
+    transform: scale(1.1);
+}
+.cadastrar{
+    background:linear-gradient( to left, #ffe600ee, #f7003e); 
+    color: black;
+    padding: 10px;
+    width: 120px;
+    height: 50px;
+    border:none;
+    font-size: 20px;
+    font-family: montserrat;
+    -webkit-appearance: button;
+    border-radius: 50px;
+    margin: -24px 0px 0px 5px ;
+}
+.cd button:hover{
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -o-transform: scale(1.1);
+    transform: scale(1.1);
+}
+.divdialogo1{
+    float: left;
+}
+
+.divdialogo1 img:hover{
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -o-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+.dialogo2{
+    float: right;
+margin: -230px 50px 0px 0px;
+height: 300px;
+    }
+
+.dialogo1{
+margin: 20px 0px 0px 50px;
+height: 400px;
+}  
+
+/* tela de cadastro */
+
+.caixa2{
+    background:linear-gradient( #ffe600ee, #f7003e, #f7003e,#e203ff,#2904fcee); 
+    width:  600px;
+    height: 480px;
+    font-family: montserrat;
+    margin: 15px 0px 0px 0px ;
+    border-radius: 20px;
+}
+.caixa2 input{
+    width: 260px;
+    height: 40px;
+    border:none;
+    font-family: montserrat;
+    border-radius: 10px;
+}
+
+.caixa2 button:hover{
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -o-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+.btc{
+    float: left;
+    margin: 0px 0px 0px 0px;
+}
+
+.enviar  {
+    float: left;
+    background:linear-gradient( to left, #ffe600ee, #f7003e); 
+    color: black;
+    padding: 10px;
+    width: 210px;
+    height: 20px;
+    border:none;
+    font-size: 20px;
+    font-family: montserrat;
+    -webkit-appearance: button;
+    margin: 20px 0px 0px 20px ;
+    border-radius: 20px;
+    position: relative;
+}
+.limpar  {
+    float: right;
+    background:linear-gradient( to left, #ffe600ee, #f7003e); 
+    color: black;
+    padding: 10px;
+    width: 100px;
+    height: 50px;
+    border:none;
+    font-size: 20px;
+    font-family: montserrat;
+    -webkit-appearance: button;
+    margin: -15px 10px 0px 0px;
+    border-radius: 20px;
+    position: relative;
+}
+
+.cadastropart1{
+    float: left;
+    margin: 0px 0px 0px 20px ;
+}
+.cadastro{
+    margin: 0px 0px 0px 0px;
+}
+.nome{
+    margin: 0px 0px 0px 0px;
+}
+.email{
+    margin: 0px 0px 0px 0px;
+}
+
+.senha{
+    margin: -30px 0px 0px 0px; 
+}
+
+.cadastropart2{
+    float: right;
+    margin: 0px 50px 0px 0px;
+}
+.data{
+    margin:0px 0px 0px 0px;
+    z-index: 1;
+    position: absolute;
+}
+.imagem{
+    margin:80px 0px 0px 0px;
+    z-index: 0;
+}
+
+/* começa Retangular/*/
+.retangular{
+    margin:-132px 0px 0px -48px;
+    height:100px ;
+    }
+.um {
+    margin: -360px 0px 0px 180px; 
+}
+.dois{
+margin:0px 0px 0px 0px;
+}
+
+.tres{
+margin: -150px 0px 0px 0px;   
+}
+.quatro{
+float: right;
+    margin:-200px 0px 0px 0px; 
+
+}
+
+.famosas{
+margin: -200px 0px 0px 0px;
+}
+
+.famosasretangular{
+margin: -160px 0px 0px 0px;
+}
+
+.gisele{
+margin:0px 0px 0px 0px  ;
+height:450px;
+}
+
+.jennifer{
+margin:0px 0px 0px 0px  ;
+height:450px;
+}
+
+.nicole{
+margin:0px 0px 0px 0px  ;
+height:450px;
+}
+/* começa ampulheta/*/
+.ampulheta{
+    float: left;
+    margin: -80px 0px 0px 0px;
+}
+#ampulhetapart{
+    margin: -100px 0px 0px 200px;
+}
+.cinco{
+margin:  0px 0px 0px 0px;
+}
+.seis{
+margin: 0px 0px 0px 0px;
+}
+.sete{
+    float: right;
+margin: -500px 0px 0px 0px;
+
+}
+
+.famosas2{
+margin:-70px 0px 0px 0px;  
+}
+
+.kin{
+margin: 0px 0px 0px 0px ;
+height: 450px;  
+}
+
+.kylie{
+margin: 0px 0px 0px 0px ;
+height: 400px;    
+}
+
+.cloe{
+margin:0px 0px 0px 0px ;
+height: 450px;   
+}
+.CX2{
+margin: -150px 0px 0px 0px;  
+}
+
+/* começa Triangulo Invertido/*/
+.trianguloI{
+    float: left;
+    margin: -100px 0px 0px 0px  ;
+    }
+
+.triangulopart1{
+    margin: -100px 0px 0px 0px;
+}    
+.oito{
+margin: 0px 0px 0px 0px;
+}
+.nove{
+margin: 0px 0px 0px 200px;
+}
+.dez{
+    float: right;
+margin: -500px 0px 0px 0px;
+}
+
+.famosas3{
+margin:-221px 0px 0px 78px;
+
+}
+.amanda{
+margin: 0px 0px 0px 0px;
+height: 400px;
+}
+.kate{
+margin: 0px 0px 0px 0px;
+height: 400px;
+}
+.angelina{
+margin: 0px 0px 0px 0px;
+height: 400px;
+}
+.CX3{
+margin: -92px 0px 0px 0px;    
+}
+/* começa Pera/*/
+
+.pera{
+    float: left;
+    margin: -70px 0px 0px 0px; 
+    }
+.perapart1{
+    margin: -120px 0px 0px 0px;
+}
+
+.onze{
+margin: 0px 0px 0px 0px;
+}
+.doze{
+margin: 0px 0px 0px 0px; 
+}  
+
+.treze{
+    float: right;
+margin:-467px 0px 0px 0px;
+}
+.lopez{
+    margin:0px 0px 0px 0px;
+    height:400px ;
+}  
+.iza{
+    margin:0px 0px 0px 0px;
+    height:350px ;
+}
+.niky{
+    margin:0px 0px 0px 0px;
+    height:400px ;   
+}
+.CX4{
+    margin:0px 0px 0px 0px;  
+}
+.famosas4{
+    margin: -100px 0px 0px 0px ;
+    }
+
+/* começa Maça/*/
+.maça{
+    float: left;
+    margin:-50px 0px 0px 0px  ;
+    
+    }
+.maçapart1{
+
+    margin: -100px 0px 0px 0px;
+}
+    
+.quatorze{
+    margin: 0px 0px 0px 0px;  
+}
+.quinze{
+    margin:0px 0px 0px 120px;
+}
+.dezseseis{
+    float: right;
+margin: -500px 0px 0px 0px;
+}
+.famosas5{
+    margin: -200px 0px 0px 0px;
+}
+.cacau{
+    margin:0px 0px 0px 0px;
+    height:400px ;
+}
+
+.fabiana{
+    margin:0px 0px 0px 0px;
+    height:350px ;
+
+}
+.latifa{
+    margin:0px 0px 0px 0px;
+    height:400px ;
+}
+.CX5{
+    margin:0px 0px 0px 0px;
+}
+/* laboratorio calculadora*/
+
+.calculadora{
+    float: left;
+    background:linear-gradient( #ffe600ee, #f7003e, #f7003e,#e203ff,#2904fcee); 
+    height: 500px;
+    width: 650px;
+    border-radius: 20px;
+    margin: 50px 0px 0px 20px;
+}
+
+.calculadora input{
+    width: 260px;
+    height: 40px;
+    border: none;
+    border-color: red;
+    font-family: montserrat;
+    border-radius: 10px;
+}
+.calculadora button {
+    background:linear-gradient( to left, #ffe600ee, #f7003e); 
+    color: black;
+    padding: 10px;
+    width: 100px;
+    height: 50px;
+    border:none;
+    font-size: 20px;
+    font-family: montserrat;
+    -webkit-appearance: button;
+    border-radius: 50px; 
+}
+
+.calculadora button:hover{
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -o-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+.calculadora1{
+    margin: -50px 0px 0px 0px;
+}
+.imput{
+    margin: -70px 0px 20px 0px ;
+}
+.ombros{
+    margin: -50px 0px 0px 0px;
+}
+.cintura{
+    margin: -50px 0px 0px 0px;
+}
+.quadril{
+    margin: -60px 0px 0px 0px;
+}
+/* blog e palstica parte inicail */
+
+.div2{
+
+    float:right;
+    position: relative;
+    background:linear-gradient(#ffe600ee, #f7003e, #f7003e,#e203ff,#2904fcee); 
+    height: 500px;
+    width: 650px;
+    margin: 50px 0px 0px 80px;
+    border-radius: 20px;
+    border:black;
+
+}
+
+.separação{
+    width: 100%; 
+	display: flex; 
+	flex-direction: row 
+}
+.saber{
+margin: -20px 0px 0px 0px;
+}
+.seta1{
+    margin: 0px 0px 48px 0px;
+}
+.saber1{
+    margin: 0px 0px 0px 0px;
+}
+.div3 button{
+    background:linear-gradient( #f7003e, #ffe600ee);
+    color: black;
+    padding: 10px;
+    width: 150px;
+    height: 50px;
+    border:none;
+    font-size: 20px;
+    font-family: montserrat;
+    -webkit-appearance: button;
+    border-radius: 50px;
+    margin: -39px 0px 43px -109px;
+}
+.div3 button:hover{
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -o-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+.seta2{
+    margin: 0px 0px 32px 0px;
+}
+.div4{
+    margin: -29px 0px 0px 0px;
+}
+.div4 button{
+    background:linear-gradient( #f7003e, #ffe600ee);
+    color: black;
+    padding: 10px;
+    width: 150px;
+    height: 50px;
+    border:none;
+    font-size: 20px;
+    font-family: montserrat;
+    -webkit-appearance: button;
+    border-radius: 50px;
+    margin: -29px 0px 11px -105px;
+}
+.div4 button:hover{
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -o-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+/* sobre*/
+
+.lais{
+    margin: 0px 0px 0px 30px;
+    border-radius: 20px;
+}
+.lais1{
+    margin: -20px 0px 0px 0px;
+}
+.lais1 img:hover{
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -o-transform: scale(1.1);
+    transform: scale(1.1);
+}
+.valorizar{
+    margin: -312px 0px 195px 259px;
+}
+.divsobre{
+    float:right;
+    margin: 0px 0px 0px 0px;
+    font-size: 30px;
+}
+.abrefecha{
+margin: 0px 0px 0px 0px;
+}
+.h1{
+    float:left;
+    z-index: 0;
+    position: relative;
+    margin: -24px 0px 0px 0px;
+}
+.abre{
+    
+margin: 0px 0px 0px -611px;
+}
+.fecha{
+    
+    margin: 0px 0px 58px 0px;
+}
+.sobretexto{
+    position: relative;
+    margin: -90px 0px 0px 0px;
+}
+.sobretexto1{
+
+    position: relative;
+    margin: 0px 0px 0px 0px;
+}
+.sobretexto2{
+    position: relative;
+    float: right;
+    margin: 0px 0px 0px 0px;
+}
+.sobretexto3{
+    float: right ;
+    position: relative;
+    margin: -130px 20px 300px 0px;
+}
+.divsobretexto{
+    float: right;
+    margin: 0px 0px 0px 0px ;
+}
+
+.textosobre4{
+margin:-300px 0px 25px 254px;
+}
+
+.estrelas{
+    float: right;
+    margin: -170px 50px 0px 0px ;
+}
+
+
+
+/*  botão back plastica e blog*/
+.div5 button {
+    background:linear-gradient( #f7003e, #ffe600ee);
+    color: black;
+    padding: 10px;
+    width: 150px;
+    height: 50px;
+    border:none;
+    font-size: 20px;
+    font-family: montserrat;
+    -webkit-appearance: button;
+    border-radius: 50px;
+    margin:10px 0px 0px 5px ;
+}
+
+.div6 button {
+    background:linear-gradient( #f7003e, #ffe600ee);
+    color: black;
+    padding: 10px;
+    width: 150px;
+    height: 50px;
+    border:none;
+    font-size: 20px;
+    font-family: montserrat;
+    -webkit-appearance: button;
+    border-radius: 50px;
+    margin:10px 0px 0px 5px ;
+}
+
+.div5 button:hover{
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -o-transform: scale(1.1);
+    transform: scale(1.1);
+}
+.div6 button:hover{
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -o-transform: scale(1.1);
+    transform: scale(1.1);
+}
+/* ttulo plastica e blog */
+.sb2{
+    margin: -10px 0px 0px 300px;
+}
+
+.sb1{
+    margin: 0px 0px 0px 300px;
+}
+
+/* plastica */
+.pesquise{
+    margin: 0px 0px 0px 200px ;
+
+}
+.clinicas{
+    background-color: rgba(255, 255, 255, 0.582);
+    margin: -50px 0px 0px 0px ;
+}
+.clinicas1{
+float: right;
+margin: -1289px 15px 0px 0px;
+}
+.clinicas1 img:hover{
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -o-transform: scale(1.1);
+    transform: scale(1.1);
+}
+.ct{
+    float: left;
+    margin: -30px 0px 0px 80px;
+}
+.textosclinicas{
+    margin: 0px 0px 0px 0px;
+
+}
+.textoclinica{
+    margin: 0px 0px 0px 35px ;
+}
+.textoclinica1{
+    margin: 0px 0px 0px 30px ;
+}
+.textoclinica2{
+    margin: 0px 0px 0px 20px ;
+}
+
+.final2{ 
+  margin: 0px 0px 0px 0px;
+}
+
+.clinica1{
+    margin: 0px 0px 0px 0px ; 
+    border-radius: 30px;
+}
+.clinica2{
+    margin: 0px 0px 0px 0px ; 
+    border-radius: 30px;
+}
+.clinica3{
+    margin: 0px 0px 0px 0px ; 
+    border-radius: 30px;
+}
+.clinica4{
+    margin: 0px 0px 0px 0px ; 
+    border-radius: 30px;
+}
+.clinica5{
+    margin: 0px 0px 0px 110px ;
+    border-radius: 30px; 
+}
+
+
+/* parte blog*/
+.mulher{
+    
+    background-color: rgba(255, 255, 255, 0.582);
+    margin: -50px 0px 0px 0px ;
+}
+.galeria img:hover{
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -o-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+.galeria{
+    float: right;
+    margin: -1257px 3px 0px 0px;
+}
+.blog1{
+    margin: 0px 0px 0px 0px;
+    border-radius: 20px;
+}
+.blog2{
+    margin: 0px 0px 0px 0px;
+    border-radius: 20px;
+}
+.blog3{
+    margin: 0px 0px 0px 0px;
+    border-radius: 20px;
+}
+.blog4{
+    margin: 0px 0px 0px 0px;
+    border-radius: 20px;
+}
+.blog5{
+    margin: 0px 0px 0px 104px;
+    border-radius: 20px;
+}
+
+.divblog{
+    margin: 0px 8px 0px -2px;
+}
+.bt{
+    margin: 0px 0px 0px 120px;  
+}
+.referencia{
+    margin: 0px 0px 0px 250px;
+}
+.textoblog1{
+    margin: 0px 0px 0px 0px;
+}
+.textoblog2{
+    margin: 0px 0px 0px 0px;
+}
+.textoblog3{
+        margin: 0px 0px 0px 0px;
+    }

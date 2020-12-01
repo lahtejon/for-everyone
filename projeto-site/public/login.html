@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@10"></script>
+</head>
+<body>
+    <div class="header">
+        <div class="container">
+            <img src="img/logo.png" class="logo">
+            <div class="nav">
+                <ul class="menu">
+                    <li></li> <a href="index.html" ><strong>Inicio</strong></a></li>
+                    <li> <a href="Sobre.html"><strong>sobre</strong></a></li>
+                    <li> <a href="body.html"><strong>body</strong></a></li>
+                    <li><a href="laboratiorio.html"><strong>Laboratory</strong></a></li>
+                    <li class="current"> <a href="login.html" ><strong>Login</strong></a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <br><br>
+    <div class="cd">
+    <a href="cadastro.html"><button onclick="cadastrar()" class="cadastrar">Cadastrar</button></a>
+    </div>
+    <br>
+    <div class="divdialogo1" >
+    <a href="https://www.dove.com/br/historias-Dove/sobre-Dove/our-research.html" target="_blank"><img src="img/dialogo1.png" class="dialogo1"></a>
+    </div>
+<center>
+    <div id="caixa" class="caixa1">
+    <form name="login" method="post" onsubmit="return entrar()">
+    <br>
+    <h1>Login</h1>
+    <div class="imputs">
+    <h3>E-mail</h3>
+    <input id="e-mail" placeholder="Insira seu e-mail" type="email" required="required" name="email">
+    <br><br>
+    <h3>Senha</h3>
+    <input id="senha" placeholder="Insira sua senha" type="password" required="required" name="senha">
+    <br><br>
+    <button onclick="entrar()">Entrar</button>
+    </form>
+    </div>
+</center>
+<img src="img/dialogo2.png" class="dialogo2">
+
+<center>
+<div class="rodape">
+    <center>
+            
+        <h>for.everyone@hotmail.com</h>
+    </center>
+</div>
+</center>
+<style>
+
+.rodape{
+    position: absolute;
+    bottom:0;
+    width:100%;
+    height: 22px;
+    background:linear-gradient(to left, #ffe600ee,#f7003e, #f7003e,#e203ff,#2904fcee);
+    margin: 50px 0px 0px 0px;
+}
+
+</style>
+</body>
+</html>
+<script>
+
+    function entrar() {
+
+        var formulario = new URLSearchParams(new FormData(login));
+        fetch("/usuarios/autenticar", {
+            method: "POST",
+            body: formulario
+        }).then(resposta => {
+
+            if (resposta.ok) {
+
+                resposta.json().then(json => {
+
+                    sessionStorage.login_usuario_meuapp = json.login;
+                    sessionStorage.nome_usuario_meuapp = json.nome;
+
+                    window.location.href = 'sobre.html';
+                });
+
+            } else {
+                Swal.fire({
+                  title: ' <a style="color:#020202ee;">E-mail ou senha invalidos</a>',
+                  icon: 'warning',
+                  iconColor: 'black',
+                  background: 'linear-gradient( #ffe600ee, #f7003e, #f7003e,#e203ff,#2904fcee)',
+                  confirmButtonText: 'Okay',
+                  confirmButtonColor: '#020202ee',
+                 })
+            }
+        });
+    }
