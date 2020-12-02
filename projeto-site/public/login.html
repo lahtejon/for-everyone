@@ -14,9 +14,6 @@
             <div class="nav">
                 <ul class="menu">
                     <li></li> <a href="index.html" ><strong>Inicio</strong></a></li>
-                    <li> <a href="Sobre.html"><strong>sobre</strong></a></li>
-                    <li> <a href="body.html"><strong>body</strong></a></li>
-                    <li><a href="laboratiorio.html"><strong>Laboratory</strong></a></li>
                     <li class="current"> <a href="login.html" ><strong>Login</strong></a></li>
                 </ul>
             </div>
@@ -37,7 +34,7 @@
     <h1>Login</h1>
     <div class="imputs">
     <h3>E-mail</h3>
-    <input id="e-mail" placeholder="Insira seu e-mail" type="email" required="required" name="email">
+    <input id="email" placeholder="Insira seu e-mail" type="email" required="required" name="email">
     <br><br>
     <h3>Senha</h3>
     <input id="senha" placeholder="Insira sua senha" type="password" required="required" name="senha">
@@ -84,13 +81,15 @@
 
                 resposta.json().then(json => {
 
-                    sessionStorage.login_usuario_meuapp = json.login;
+                    sessionStorage.email_usuario_meuapp = json.email;
                     sessionStorage.nome_usuario_meuapp = json.nome;
 
-                    window.location.href = 'sobre.html';
+                    window.location.href = 'Sobre.html';
                 });
 
             } else {
+                email.value ="";
+                senha.value ="";
                 Swal.fire({
                   title: ' <a style="color:#020202ee;">E-mail ou senha invalidos</a>',
                   icon: 'warning',
@@ -98,7 +97,8 @@
                   background: 'linear-gradient( #ffe600ee, #f7003e, #f7003e,#e203ff,#2904fcee)',
                   confirmButtonText: 'Okay',
                   confirmButtonColor: '#020202ee',
-                 })
+                 });
             }
-        });
+        });return false;
     }
+    </script>

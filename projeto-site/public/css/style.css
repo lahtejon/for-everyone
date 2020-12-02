@@ -96,22 +96,18 @@ font-family: Montserrat;
     }
     .cubos{
         position: relative;
-        margin: -311px 0px 0px 0px;
+        margin: -315px 0px 0px 0px;
         float: right;
     }
 
 /* body tela inicial /*/ 
-
-.box1{
-font-family:montserrat;
+.bodycolor{
+background-color: #ffffff7c;
+margin: 24px 0px 0px 0px;
 }
-
-.maça{
-margin:-129px 0px 0px 0px  ;
-
-height:100px ;
+.texto1{
+    margin: 0px 0px 0px 40px ;
 }
-
 .body1{
 margin: -24px 0px 0px 0px;
 }
@@ -125,9 +121,9 @@ margin: -24px 0px 0px 0px;
             margin: -43px 0px 0px 0px;
             }
 .corpos{
-    
+
 float: right;
-margin: -550px 70px 0px 0px;
+margin: -550px 100px 0px 0px;
 }
             
 .corpos1{
@@ -184,7 +180,7 @@ margin: -550px 70px 0px 0px;
     width: 500px;
     height: 400px;
     font-family: montserrat;
-    margin: -50px 0px 0px 0px;
+    margin: -20px 0px 0px 0px;
     border-radius:20px;
 }
 
@@ -247,13 +243,13 @@ margin: -550px 70px 0px 0px;
 
 .dialogo2{
     float: right;
-margin: -230px 50px 0px 0px;
-height: 300px;
+margin: -310px 50px 0px 0px;
+height: 400px;
     }
 
 .dialogo1{
-margin: 20px 0px 0px 50px;
-height: 400px;
+margin: -30px 0px 0px 130px;
+height: 500px;
 }  
 
 /* tela de cadastro */
@@ -263,7 +259,7 @@ height: 400px;
     width:  600px;
     height: 480px;
     font-family: montserrat;
-    margin: 15px 0px 0px 0px ;
+    margin: 50px 0px 0px 0px ;
     border-radius: 20px;
 }
 .caixa2 input{
@@ -686,11 +682,12 @@ margin: -20px 0px 0px 0px;
 /* sobre*/
 
 .lais{
-    margin: 0px 0px 0px 30px;
+    margin: 0px 0px 0px 0px;
     border-radius: 20px;
 }
 .lais1{
-    margin: -20px 0px 0px 0px;
+    float: left;
+    margin: 10px 0px 0px 20px;
 }
 .lais1 img:hover{
     -webkit-transform: scale(1.1);
@@ -699,63 +696,65 @@ margin: -20px 0px 0px 0px;
     transform: scale(1.1);
 }
 .valorizar{
-    margin: -312px 0px 195px 259px;
+    margin:-100px 0px 0px 60px;
 }
 .divsobre{
+    background-color: #0000006b;
     float:right;
-    margin: 0px 0px 0px 0px;
+    margin: 50px 0px 0px 0px;
     font-size: 30px;
 }
 .abrefecha{
-margin: 0px 0px 0px 0px;
+    float:left;
+margin: -100px 0px 0px 170px;
 }
 .h1{
     float:left;
     z-index: 0;
-    position: relative;
-    margin: -24px 0px 0px 0px;
+    position: absolute;
+    margin: -24px 0px 0px 120px;
 }
 .abre{
-    
-margin: 0px 0px 0px -611px;
+margin: 0px 0px 0px 0px;
 }
 .fecha{
-    
-    margin: 0px 0px 58px 0px;
+    margin: 0px 0px 15px 0px;
 }
 .sobretexto{
+float: left;
     position: relative;
-    margin: -90px 0px 0px 0px;
+    margin: -20px 100px 0px 0px;
 }
 .sobretexto1{
-
     position: relative;
     margin: 0px 0px 0px 0px;
 }
 .sobretexto2{
+    float:left;
     position: relative;
-    float: right;
-    margin: 0px 0px 0px 0px;
+    margin: 0px 100px 0px 0px;
 }
 .sobretexto3{
-    float: right ;
+    float:left;
     position: relative;
-    margin: -130px 20px 300px 0px;
+    margin: -30px 0px 0px 0px;
 }
 .divsobretexto{
     float: right;
-    margin: 0px 0px 0px 0px ;
+    margin: -420px 80px 0px 0px ;
 }
 
 .textosobre4{
-margin:-300px 0px 25px 254px;
+float: right;
+margin: -100px 0px 0px 50px;
 }
 
 .estrelas{
-    float: right;
-    margin: -170px 50px 0px 0px ;
+    margin: 0px 0px 0px 200px ;
 }
-
+.tudo{
+ margin: 0px 0px 0px 100px;
+}
 
 
 /*  botão back plastica e blog*/

@@ -29,17 +29,16 @@
 <div class="cadastropart1">
 <div class="nome">
 <h3>Nome</h3>
-<input id="idnome" placeholder="Insira seu nome" type="text" required="required" name="nome" maxlength="30" >
+<input id="idnome" placeholder="Insira seu nome" type="text"  name="nome" maxlength="30" minlength="2" required >
 </div>
 <div class="email">
 <h3>E-mail</h3>
-<input id="idemail" placeholder="Insira seu e-mail " type="email" required="required" name="email" minlength="5" >
+<input id="idemail" placeholder="Insira seu e-mail " type="email" name="email" minlength="5" required>
 </div>
-<br>
 <br>
 <div class="senha">
 <h3>Crie uma senha</h3>
-<input id="idsenha" placeholder="Insira sua senha" type="password" required="required" name="senha" minlength="5" >
+<input id="idsenha" placeholder="Insira sua senha" type="password" name="senha" minlength="5" required>
 </div>
 <br>
 <br>
@@ -47,13 +46,13 @@
 <div class="cadastropart2">
 <div class="data">
 <h3>Data de nascimento</h3>
-<input type="date" id="iddata" required="required" name="aniversario">
+<input type="date" id="iddata" name="aniversario" minlength="8" required>
 </div>
 <br>
 <img src="img/cadastro.png" class="imagem">
 </div>
 <div class="btc">
-<input type="submit" class="enviar" onclick="Cadastrar();" value="cadastrar" />
+<input type="submit" class="enviar" value="cadastrar" />
 </div>
 </form>
 
@@ -86,36 +85,37 @@ idemail.value = "";
 idnome.value ="";
 iddata.value ="";
 idsenha.value="";
-idconfirmação.value="";
 }
 </script>
 
 <script>
-
+    
     function cadastrar() {
 
         var formulario = new URLSearchParams(new FormData(cadastro));
         fetch("/usuarios/cadastrar", {
             method: "POST",
             body: formulario
-        }).then(function (response) {
+        }).then(function (resposta) {
             
-            if (response.ok) {
+            if (resposta.ok) {
 
                 window.location.href='login.html';
 
             } else {
                 Swal.fire({
-                  title: ' <a style="color:#020202ee;">ERRO NO CADASTRO</a>',
+                  title: ' <a style="color:#020202ee;">Erro no cadastro</a>',
                   icon: 'warning',
                   iconColor: 'black',
                   background: 'linear-gradient( #ffe600ee, #f7003e, #f7003e,#e203ff,#2904fcee)',
                   confirmButtonText: 'Okay',
                   confirmButtonColor: '#020202ee',
-                 })
+                 }); 
             }
-        });
+        }); return false;
     }
+</script>
 
-        
 
+
+    
